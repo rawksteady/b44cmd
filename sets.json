@@ -1,0 +1,454 @@
+{
+    "sets": [
+        {
+            "title": "client",
+            "updated": "2018-02-08",
+            "prefix": "Settings",
+            "commands": [
+                {
+                    "cmd": "AspectRatio",
+                    "exp": "Adjust aspect ratio"
+                },
+                {
+                    "cmd": "AspectRatio",
+                    "exp": "Adjust aspect ratio"
+                },
+                {
+                    "cmd": "BAROffset",
+                    "exp": "BAR specific weapon offset"
+                },
+                {
+                    "cmd": "Brightness",
+                    "exp": "Adjust brightness"
+                },
+                {
+                    "cmd": "ColourBlindMode",
+                    "exp": "Adjust the colour blind mode"
+                },
+                {
+                    "cmd": "CardPickupScale",
+                    "exp": "Size of the dropped cards"
+                },
+                {
+                    "cmd": "DecorativeTrees",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "Dof",
+                    "exp": "Adjust depth of field"
+                },
+                {
+                    "cmd": "DynamicShadows",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "EffectsQuality",
+                    "exp": "Effects quality i.e. explosions"
+                },
+                {
+                    "cmd": "EffectsVolume",
+                    "exp": "Effects volume"
+                },
+                {
+                    "cmd": "EnableDevConsole",
+                    "exp": "Enable/disable the developer console"
+                },
+                {
+                    "cmd": "FOV",
+                    "exp": "Adjusts your FOV",
+                    "egs": [
+                        "Fov 100"
+                    ]
+                },
+                {
+                    "cmd": "FoliageQuality",
+                    "exp": "Adjust the quality of the foliage"
+                },
+                {
+                    "cmd": "Fps",
+                    "exp": "Set max FPS",
+                    "egs": [
+                        "Fps 200"
+                    ]
+                },
+                {
+                    "cmd": "FixedWeaponViewModel",
+                    "exp": "Controls viewmodel size/position"
+                },
+                {
+                    "cmd": "FixMapRotation",
+                    "exp": "Enable/disable minimap rotation"
+                },
+                {
+                    "cmd": "Gewehr43Offset",
+                    "exp": "Gewehr 43 specific weapon offset"
+                },
+                {
+                    "cmd": "GlobalWeaponOffset",
+                    "exp": "Global weapon offsets"
+                },
+                {
+                    "cmd": "GraphicsQuality",
+                    "exp": "Adjust grahics quality"
+                },
+                {
+                    "cmd": "HeadBob",
+                    "exp": "Enable/disable headbob"
+                },
+                {
+                    "cmd": "HudScale",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "Kar98Offset",
+                    "exp": "Kar98k specific weapon offset"
+                },
+                {
+                    "cmd": "LugerOffset",
+                    "exp": "Luger specific weapon offset"
+                },
+                {
+                    "cmd": "MP40Offset",
+                    "exp": "MP40 specific weapon offset"
+                },
+                {
+                    "cmd": "MasterVolume",
+                    "exp": "Adjust master volume (everything)"
+                },
+                {
+                    "cmd": "MouseAcceleration",
+                    "exp": "Enable/disable mouse acceleration"
+                },
+                {
+                    "cmd": "MouseAccelerationAmount",
+                    "exp": "Amount of mouse acceleration"
+                },
+                {
+                    "cmd": "MouseFOVScale",
+                    "exp": "Decription needed"
+                },
+                {
+                    "cmd": "MouseInvertLook",
+                    "exp": "Enable/disable inverted Y axis"
+                },
+                {
+                    "cmd": "MouseSensitivity",
+                    "exp": "Adjust mouse sensitivity"
+                },
+                {
+                    "cmd": "MotionBlur",
+                    "exp": "Enable/disable motion blur"
+                },
+                {
+                    "cmd": "MusicVolume",
+                    "exp": "Adjust music volume"
+                },
+                {
+                    "cmd": "M1CarbineOffset",
+                    "exp": "M1 Carbine specific weapon offset"
+                },
+                {
+                    "cmd": "M1GarandOffset",
+                    "exp": "M1 Garand specific weapon offset"
+                },
+                {
+                    "cmd": "M1911ffset",
+                    "exp": "M1911 specific weapon offset"
+                },
+                {
+                    "cmd": "PanningMode",
+                    "exp": "Audio panning mode, defaulted to headphones"
+                },
+                {
+                    "cmd": "PPQuality",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "PlayerChatMicVolume",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "PlayerRecieveVolume",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "PlayerShoutVolume",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "Resolution",
+                    "exp": "Change video resolution"
+                },
+                {
+                    "cmd": "Resolution quality",
+                    "exp": "Adjust resolution quality"
+                },
+                {
+                    "cmd": "TargetDisplay",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "Texture quality",
+                    "exp": "Adjust texture quality"
+                },
+                {
+                    "cmd": "TextureStreamingEnabled",
+                    "exp": "Enable/disable texture streaming"
+                },
+                {
+                    "cmd": "TeamVoiceChat",
+                    "exp": "Decription needed"
+                },
+                {
+                    "cmd": "ThompsonOffset",
+                    "exp": "Thompson specific weapon offset"
+                },
+                {
+                    "cmd": "UIVolume",
+                    "exp": "Adjust UI volume i.e. menu sounds"
+                },
+                {
+                    "cmd": "UseGlobalWeaponOffsets",
+                    "exp": "Enable/disable global weapon offsets"
+                },
+                {
+                    "cmd": "Version",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ViewDistanceQuality",
+                    "exp": "Adjust view distance quality"
+                },
+                {
+                    "cmd": "Vignette",
+                    "exp": "Enable/disable vignette"
+                },
+                {
+                    "cmd": "Vsync",
+                    "exp": "Enable/disable vsync"
+                },
+                {
+                    "cmd": "VoiceChatMode",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "WorldMasterColourGradingContrast",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "WorldMasterColourGradingGamma",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "WorldMasterColourGradingSaturation",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "WorldContrastToneBlue",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "WorldContrastToneGreen",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "WorldContrastToneRed",
+                    "exp": "Description needed"
+                }
+            ]
+        },
+        {
+            "title": "server",
+            "updated": "2018-02-08",
+            "prefix": "Server",
+            "commands": [
+                {
+                    "cmd": "AddBot",
+                    "exp": "Add bot(s) to the server",
+                    "egs": [
+                        "addBot 1"
+                    ]
+                },
+                {
+                    "cmd": "Announce",
+                    "exp": "Echo a message to the server",
+                    "egs": [
+                        "announce Hello"
+                    ]
+                },
+                {
+                    "cmd": "ChangeMap",
+                    "exp": "Change map & mode",
+                    "egs": [
+                        "ChangeMap AimMap_01 BOMB",
+                        "ChangeMap AimMap_01 CTF",
+                        "ChangeMap AimMap_01 DOM",
+                        "ChangeMap AimMap_01 TDM",
+                        "ChangeMap Battery BOMB",
+                        "ChangeMap Battery CTF",
+                        "ChangeMap Battery DOM",
+                        "ChangeMap Battery TDM",
+                        "ChangeMap Coastal BOMB",
+                        "ChangeMap Coastal DOM",
+                        "ChangeMap Coastal CTF",
+                        "ChangeMap Coastal TDM",
+                        "ChangeMap Derailed BOMB",
+                        "ChangeMap Derailed CTF",
+                        "ChangeMap Derailed DOM",
+                        "ChangeMap Derailed TDM",
+                        "ChangeMap Liberation BOMB",
+                        "ChangeMap Liberation DOM",
+                        "ChangeMap Liberation CTF",
+                        "ChangeMap Liberation TDM",
+                        "ChangeMap Manorhouse_V1 BOMB",
+                        "ChangeMap Manorhouse_V1 CTF",
+                        "ChangeMap Manorhouse_V1 DOM",
+                        "ChangeMap Manorhouse_V1 TDM",
+                        "ChangeMap Manorhouse_V2 BOMB",
+                        "ChangeMap Manorhouse_V2 CTF",
+                        "ChangeMap Manorhouse_V2 DOM",
+                        "ChangeMap Manorhouse_V2 TDM",
+                        "ChangeMap Outpost BOMB",
+                        "ChangeMap Outpost CTF",
+                        "ChangeMap Outpost DOM",
+                        "ChangeMap Outpost TDM"
+                    ]
+                },
+                {
+                    "cmd": "ChangeTeam",
+                    "exp": "Change your team",
+                    "egs": [
+                        "changeTeam 0",
+                        "changeTeam 1"
+                    ]
+                },
+                {
+                    "cmd": "Config",
+                    "exp": "Change server config values",
+                    "egs": [
+                        "config.somevalue 13"
+                    ]
+                },
+                {
+                    "cmd": "DisconnectAll",
+                    "exp": "Disconnect everyone from the server"
+                },
+                {
+                    "cmd": "EndRound",
+                    "exp": "Ends the current round"
+                },
+                {
+                    "cmd": "GiveAmmo",
+                    "exp": "Give youself ammo",
+                    "egs": [
+                        "giveAmmo 90"
+                    ]
+                },
+                {
+                    "cmd": "GiveGrenade",
+                    "exp": "Give youself grenade(s)",
+                    "egs": [
+                        "giveGrenade 1",
+                        "giveGrenade 23"
+                    ]
+                },
+                {
+                    "cmd": "GiveSmokeGrenade",
+                    "exp": "Give youself smoke grenade(s)",
+                    "egs": [
+                        "giveSmokeGrenade 1",
+                        "giveSmokeGrenade 23"
+                    ]
+                },
+                {
+                    "cmd": "GiveWeapon",
+                    "exp": "Give yourself a specific weapon",
+                    "egs": [
+                        "GiveWeapon Gewehr_43 1",
+                        "GiveWeapon Kar_98k 1",
+                        "GiveWeapon Kar_98k_Scoped",
+                        "GiveWeapon Luger 1",
+                        "GiveWeapon M1_Carbine 1",
+                        "GiveWeapon M1_Garand 1",
+                        "GiveWeapon M1911 1",
+                        "GiveWeapon M1918_BAR 1",
+                        "GiveWeapon MP40 1",
+                        "GiveWeapon Springfield_Scoped 1",
+                        "GiveWeapon STG44 1",
+                        "GiveWeapon Thompson 1",
+                        "GiveWeapon Winchester_1897 1"
+                    ]
+                },
+                {
+                    "cmd": "Invulnerable",
+                    "exp": "Make yourself invulnerable"
+                },
+                {
+                    "cmd": "KickByPlayerName",
+                    "exp": "Kick player by name",
+                    "egs": [
+                        "kickByPlayerName toxicplayer"
+                    ]
+                },
+                {
+                    "cmd": "KickBySteamID",
+                    "exp": "Kick player by Steam ID",
+                    "egs": [
+                        "kickBySteamID STEAM_X:X:XXXXX"
+                    ]
+                },
+                {
+                    "cmd": "KillBots",
+                    "exp": "Kill alive bot(s)"
+                },
+                {
+                    "cmd": "ListPartyMembers",
+                    "exp": "Lists all party members"
+                },
+                {
+                    "cmd": "LoadNextGame",
+                    "exp": "Load next map/mode in roation"
+                },
+                {
+                    "cmd": "LoseRound",
+                    "exp": "Force lose current round"
+                },
+                {
+                    "cmd": "Pause",
+                    "exp": "Pause/unpause the game"
+                },
+                {
+                    "cmd": "Restart",
+                    "exp": "Restarts the server"
+                },
+                {
+                    "cmd": "Shutdown",
+                    "exp": "Shuts the server down"
+                },
+                {
+                    "cmd": "State",
+                    "exp": "Change gamestate",
+                    "egs": [
+                        "state CountdownToStart",
+                        "state PostMatch",
+                        "state PostRound",
+                        "state SetupRound",
+                        "state WaitingToStart"
+                    ]
+                },
+                {
+                    "cmd": "WinRound",
+                    "exp": "Force win current round"
+                },
+                {
+                    "cmd": "WwiseHeadPhoneMode",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "WwiseSpeakerMode",
+                    "exp": "Description needed"
+                }
+            ]
+        }
+    ]
+}
