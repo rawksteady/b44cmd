@@ -19,7 +19,7 @@
                 },
                 {
                     "cmd": "Brightness",
-                    "exp": "Adjust brightness"
+                    "exp": "CURRENTLY DISABLED - Adjust brightness"
                 },
                 {
                     "cmd": "ColourBlindMode",
