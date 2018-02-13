@@ -2,7 +2,7 @@
 
 ---
 
-**[rdyup.org/b44cmd](//rdyup.org/b44cmd)**
+**[rdyup.org/b44cmd](http://rdyup.org/b44cmd)**
 
 ---
 
