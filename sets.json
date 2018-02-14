@@ -15,7 +15,10 @@
                 },
                 {
                     "cmd": "Brightness",
-                    "exp": "CURRENTLY DISABLED - Adjust brightness"
+                    "exp": "Adjust brightness",
+                    "egs": [
+                        "Brightness 1.2 // CURRENTLY DISABLED"
+                    ]
                 },
                 {
                     "cmd": "ColourBlindMode",
@@ -23,7 +26,11 @@
                 },
                 {
                     "cmd": "CardPickupScale",
-                    "exp": "Size of the dropped cards"
+                    "exp": "Size of the dropped cards",
+                    "egs": [
+                        "CardPickupScale 1",
+                        "CardPickupScale 0.5"
+                    ]
                 },
                 {
                     "cmd": "DecorativeTrees",
@@ -53,7 +60,7 @@
                     "cmd": "FOV",
                     "exp": "Adjusts your FOV",
                     "egs": [
-                        "Fov 100"
+                        "Fov 100 // Undecided if values higher than the ingame settings will be allowed"
                     ]
                 },
                 {
@@ -129,7 +136,10 @@
                 },
                 {
                     "cmd": "MouseSensitivity",
-                    "exp": "Adjust mouse sensitivity"
+                    "exp": "Adjust mouse sensitivity",
+                    "egs": [
+                        "MouseSensitivity 3 // Adjust number to your liking"
+                    ]
                 },
                 {
                     "cmd": "MotionBlur",
@@ -262,7 +272,8 @@
                     "cmd": "AddBot",
                     "exp": "Add bot(s) to the server",
                     "egs": [
-                        "addBot 1"
+                        "addBot 1 // Adds 1 bot",
+                        "addBot 10 // Adds 10 bots"
                     ]
                 },
                 {
@@ -377,7 +388,10 @@
                 },
                 {
                     "cmd": "Invulnerable",
-                    "exp": "Make yourself invulnerable"
+                    "exp": "Make yourself invulnerable",
+                    "egs": [
+                        "Invulnerable // Toggles invulnerability on/off"
+                    ]
                 },
                 {
                     "cmd": "KickByPlayerName",
@@ -411,7 +425,10 @@
                 },
                 {
                     "cmd": "Pause",
-                    "exp": "Pause/unpause the game"
+                    "exp": "Pause/unpause the game",
+                    "egs": [
+                        "Pause // Toggles pause on/off"
+                    ]
                 },
                 {
                     "cmd": "Restart",
