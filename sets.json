@@ -2,7 +2,7 @@
     "sets": [
         {
             "title": "client",
-            "updated": "2018-02-13",
+            "updated": "2018-02-14",
             "prefix": "Settings",
             "commands": [
                 {
@@ -265,7 +265,7 @@
         },
         {
             "title": "server",
-            "updated": "2018-02-08",
+            "updated": "2018-02-14",
             "prefix": "Server",
             "commands": [
                 {
