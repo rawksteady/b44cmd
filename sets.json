@@ -33,6 +33,18 @@
 		    "cmd": "ControllerAimTechnique",
 		    "exp": "Description needed"
 		},
+		{
+		    "cmd": "Contrast",
+		    "exp": "Adjust contrast"
+		},
+		{
+		    "cmd": "ChromaticAbberation",
+		    "exp": "Description needed"
+		},
+		{
+		    "cmd": "DisplayMode",
+		    "exp": "Description needed"
+		},
                 {
                     "cmd": "AspectRatio",
                     "exp": "Adjust aspect ratio"
