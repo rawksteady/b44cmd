@@ -58,9 +58,9 @@
                 },
                 {
                     "cmd": "FOV",
-                    "exp": "Adjusts your FOV",
+                    "exp": "Adjusts your FOV (Field of View)",
                     "egs": [
-                        "Fov 100 // Undecided if values higher than the ingame settings will be allowed"
+                        "Fov 105 // Undecided if values higher than the ingame settings will be allowed"
                     ]
                 },
                 {
