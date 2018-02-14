@@ -5,6 +5,34 @@
             "updated": "2018-02-14",
             "prefix": "Settings",
             "commands": [
+		{
+		    "cmd": "AAQuality",
+		    "exp": "Adjust anti-aliasing quality"
+		},
+		{
+		    "cmd": "ControllerVibration",
+		    "exp": "Adjust vibration of controller"
+		},
+		{
+                    "cmd": "ControllerVerticalSensitivity",
+                    "exp": "Adjust vertical sensitivity of controller"
+                },
+		{
+		    "cmd": "ControllerSwapSticks",
+		    "exp": "Description needed"
+		},
+		{
+		    "cmd": "ControllerInvertVertical",
+		    "exp": "Invert vertical controller controls"
+		},
+		{
+		    "cmd": "ControllerInvertHorizontal",
+		    "exp": "Invert horizontal controller controls"
+		},
+		{
+		    "cmd": "ControllerAimTechnique",
+		    "exp": "Description needed"
+		},
                 {
                     "cmd": "AspectRatio",
                     "exp": "Adjust aspect ratio"
