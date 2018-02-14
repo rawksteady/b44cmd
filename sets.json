@@ -254,7 +254,7 @@
 		    "exp": "Description needed"
 		},
 		{
-		    "cmd": "SpringfieldOffset"
+		    "cmd": "SpringfieldOffset",
 		    "exp": "Springfield specific weapon offset"
 		},
 		{
