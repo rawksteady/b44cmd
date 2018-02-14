@@ -5,10 +5,33 @@
             "updated": "2018-02-14",
             "prefix": "Settings",
             "commands": [
+	        {
+                    "cmd": "AspectRatio",
+                    "exp": "Adjust aspect ratio"
+                },
 		{
 		    "cmd": "AAQuality",
 		    "exp": "Adjust anti-aliasing quality"
 		},
+		{
+                    "cmd": "BAROffset",
+                    "exp": "BAR specific weapon offset"
+                },
+                {
+                    "cmd": "Brightness",
+                    "exp": "Adjust brightness",
+                    "egs": [
+                        "Brightness 1.2 // CURRENTLY DISABLED"
+                    ]
+                },
+		{
+                    "cmd": "CardPickupScale",
+                    "exp": "Size of the dropped cards",
+                    "egs": [
+                        "CardPickupScale 1",
+                        "CardPickupScale 0.5"
+                    ]
+                },
 		{
 		    "cmd": "ControllerVibration",
 		    "exp": "Adjust vibration of controller"
@@ -46,31 +69,8 @@
 		    "exp": "Description needed"
 		},
                 {
-                    "cmd": "AspectRatio",
-                    "exp": "Adjust aspect ratio"
-                },
-                {
-                    "cmd": "BAROffset",
-                    "exp": "BAR specific weapon offset"
-                },
-                {
-                    "cmd": "Brightness",
-                    "exp": "Adjust brightness",
-                    "egs": [
-                        "Brightness 1.2 // CURRENTLY DISABLED"
-                    ]
-                },
-                {
                     "cmd": "ColourBlindMode",
                     "exp": "Adjust the colour blind mode"
-                },
-                {
-                    "cmd": "CardPickupScale",
-                    "exp": "Size of the dropped cards",
-                    "egs": [
-                        "CardPickupScale 1",
-                        "CardPickupScale 0.5"
-                    ]
                 },
                 {
                     "cmd": "DecorativeTrees",
