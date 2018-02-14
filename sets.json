@@ -158,7 +158,7 @@
                     "exp": "M1 Garand specific weapon offset"
                 },
                 {
-                    "cmd": "M1911ffset",
+                    "cmd": "M1911Offset",
                     "exp": "M1911 specific weapon offset"
                 },
                 {
@@ -186,7 +186,7 @@
                     "exp": "Change video resolution"
                 },
                 {
-                    "cmd": "Resolution quality",
+                    "cmd": "ResolutionQuality",
                     "exp": "Adjust resolution quality"
                 },
                 {
@@ -194,7 +194,7 @@
                     "exp": "Description needed"
                 },
                 {
-                    "cmd": "Texture quality",
+                    "cmd": "TextureQuality",
                     "exp": "Adjust texture quality"
                 },
                 {
@@ -214,7 +214,7 @@
                     "exp": "Adjust UI volume i.e. menu sounds"
                 },
                 {
-                    "cmd": "UseGlobalWeaponOffsets",
+                    "cmd": "UseGlobalWeaponOffset",
                     "exp": "Enable/disable global weapon offsets"
                 },
                 {
