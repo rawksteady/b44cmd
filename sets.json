@@ -362,7 +362,7 @@
 		    "exp": "Description needed"
 		},
 		{
-		    "cmd": ShowArcadeScores",
+		    "cmd": "ShowArcadeScores",
 		    "exp": "Description needed"
 		},
 		{
