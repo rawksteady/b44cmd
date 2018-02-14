@@ -64,14 +64,14 @@
 		    "cmd": "ChromaticAbberation",
 		    "exp": "Description needed"
 		},
-		{
-		    "cmd": "DisplayMode",
-		    "exp": "Description needed"
-		},
                 {
                     "cmd": "ColourBlindMode",
                     "exp": "Adjust the colour blind mode"
                 },
+		{
+		    "cmd": "DisplayMode",
+		    "exp": "Description needed"
+		},
                 {
                     "cmd": "DecorativeTrees",
                     "exp": "Description needed"
