@@ -84,6 +84,10 @@
                     "cmd": "DynamicShadows",
                     "exp": "Description needed"
                 },
+		{
+		    "cmd": "EnableVoiceChat",
+		    "exp": "Enable/disable voice chat"
+		},
                 {
                     "cmd": "EffectsQuality",
                     "exp": "Effects quality i.e. explosions"
@@ -122,6 +126,10 @@
                     "cmd": "FixMapRotation",
                     "exp": "Enable/disable minimap rotation"
                 },
+		{
+		    "cmd": "Gamma",
+		    "exp": "Adjust gamma"
+		},
                 {
                     "cmd": "Gewehr43Offset",
                     "exp": "Gewehr 43 specific weapon offset"
@@ -146,6 +154,10 @@
                     "cmd": "Kar98Offset",
                     "exp": "Kar98k specific weapon offset"
                 },
+		{
+		    "cmd": "LeftHandedWeaponViewModel",
+		    "exp": "Change the WeaponWiewModel to the left side"
+		},
                 {
                     "cmd": "LugerOffset",
                     "exp": "Luger specific weapon offset"
@@ -158,6 +170,10 @@
                     "cmd": "MasterVolume",
                     "exp": "Adjust master volume (everything)"
                 },
+		{
+		    "cmd": "MouseADSSensitivity",
+		    "exp": "Adjust Aim Down Sight sensistivity"
+		},
                 {
                     "cmd": "MouseAcceleration",
                     "exp": "Enable/disable mouse acceleration"
@@ -229,6 +245,146 @@
                     "cmd": "ResolutionQuality",
                     "exp": "Adjust resolution quality"
                 },
+		{
+		    "cmd": "STG44Offset",
+		    "exp": "STG44 specific weapon offset"
+		},
+		{
+		    "cmd": "Sprintzoom",
+		    "exp": "Description needed"
+		},
+		{
+		    "cmd": "SpringfieldOffset"
+		    "exp": "Springfield specific weapon offset"
+		},
+		{
+		    "cmd": "SoundWhenBackgrounded",
+		    "exp": "Description needed"
+		},
+		{
+		    "cmd": SniperScopeType",
+		    "exp": "Description needed"
+		},
+		{
+		    "cmd": "SkylightShadows",
+		    "exp": "Description needed"
+		},
+		{
+		    "cmd": "SkipKillCam",
+		    "exp": "Description needed"
+		},
+		{
+		    "cmd": "ShowVault",
+		    "exp": "Enable/disable vault indicator"
+		},
+		{
+		    "cmd": "ShowTips",
+		    "exp": "Enable/disable tips"
+		},
+		{
+		    "cmd": "ShowStats",
+		    "exp": "Description needed"
+		},
+		{
+		    "cmd": "ShowScoreAward",
+		    "exp": "Description needed"
+		},
+		{
+		    "cmd": "ShowScreenEffects",
+		    "exp": "Description needed"
+		},
+		{
+		    "cmd": "ShowPickup",
+		    "exp": "Enable/disable pickup indicator"
+		},
+		{
+		    "cmd": "ShowMinimap",
+		    "exp": "Enable/disable minimap"
+		},
+		{
+		    "cmd": "ShowMarkers",
+		    "exp": "Description needed"
+		},
+		{
+		    "cmd": "ShowKillInfoPanel",
+		    "exp": "Description needed"
+		},
+		{
+		    "cmd": "ShowKillFeed",
+		    "exp": "Enable/disable the killfeed"
+		},
+		{
+		    "cmd": "ShowInventory",
+		    "exp": "Description needed"
+		},
+		{
+		    "cmd": "ShowInteraction",
+		    "exp": "Description needed"
+		},
+		{
+		    "cmd": "ShowGrenadeIcon",
+		    "exp": "Enable/disable grenade indicator"
+		},
+		{
+		    "cmd": "ShowGameTimer",
+		    "exp": "Enable/disable gametimer"
+		},
+		{
+		    "cmd": "ShowGameStatus",
+		    "exp": "Description needed"
+		},
+		{
+		    "cmd": "ShowFps",
+		    "exp": "Enable/disable to show the fps"
+		},
+		{
+		    "cmd": "ShowDistanceOnMaker",
+		    "exp": "Description needed"  
+		},
+		{
+		    "cmd": "ShowCrosshair",
+		    "exp": "Enable/disable crosshair"
+		},
+		{
+		    "cmd": "ShowClock",
+		    "exp": "Enable/disable to show the clock"
+		},
+		{
+		    "cmd": "ShowChat",
+		    "exp": "Enable/disable to show the chat"
+		},
+		{
+		    "cmd": "ShowBombGameOverviewAvatars",
+		    "exp": "Description needed"
+		},
+		{
+		    "cmd": "ShowBombGameOverview",
+		    "exp": "Description needed"
+		},
+		{
+		    "cmd": ShowArcadeScores",
+		    "exp": "Description needed"
+		},
+		{
+		    "cmd": "ShotgunOffset",
+		    "exp": "Shotgun specific offset"
+		},
+		{
+		    "cmd": "ShadowQuality",
+		    "exp": "Adjust the quality of the shadows"
+		},
+		{
+		    "cmd": "ShadowColourGradingGamma",
+		    "exp": "Description needed"
+		},
+		{
+		    "cmd": "ScopedKar98Offset",
+		    "exp": "Scoped Kar98 specific offset"
+		},
+		{
+		    "cmd": "VoiceVolume",
+		    "exp": "Adjust the VOIP voice volume" 
+		},
                 {
                     "cmd": "TargetDisplay",
                     "exp": "Description needed"
