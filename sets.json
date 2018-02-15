@@ -172,7 +172,7 @@
                 },
 		{
 		    "cmd": "MouseADSSensitivity",
-		    "exp": "Adjust Aim Down Sight sensistivity"
+		    "exp": "Adjust Aim Down Sight sensitivity"
 		},
                 {
                     "cmd": "MouseAcceleration",
