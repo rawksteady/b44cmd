@@ -1,5 +1,16 @@
 {
     "sets": [
+	{
+	    "title": "misc",
+	    "updated": "2018-02-15",
+	    "prefix": "Cmd",
+	    "commands": [
+		{
+		    "cmd": "GetPlayerStats",
+		    "exp": "Show current player statistics on the server"
+		}
+	    ]
+	},
         {
             "title": "client",
             "updated": "2018-02-14",
