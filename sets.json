@@ -1,5 +1,16 @@
 {
     "sets": [
+	{
+	    "title": "misc",
+	    "updated": "2018-02-15",
+	    "prefix": "Cmd",
+	    "commands": [
+		{
+		    "cmd": "GetPlayerStats",
+		    "exp": "Show current player statistics on the server"
+		}
+	    ]
+	},
         {
             "title": "client",
             "updated": "2018-02-14",
@@ -518,7 +529,7 @@
                     ]
                 },
                 {
-                    "cmd": "ChangeTeam",
+                    "cmd": "ChangeToTeam",
                     "exp": "Change your team",
                     "egs": [
                         "changeTeam 0",
@@ -597,7 +608,7 @@
                     ]
                 },
                 {
-                    "cmd": "KickBySteamID",
+                    "cmd": "KickPlayerBySteamID",
                     "exp": "Kick player by Steam ID",
                     "egs": [
                         "kickBySteamID STEAM_X:X:XXXXX"
