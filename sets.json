@@ -518,7 +518,7 @@
                     ]
                 },
                 {
-                    "cmd": "ChangeTeam",
+                    "cmd": "ChangeToTeam",
                     "exp": "Change your team",
                     "egs": [
                         "changeTeam 0",
@@ -597,7 +597,7 @@
                     ]
                 },
                 {
-                    "cmd": "KickBySteamID",
+                    "cmd": "KickPlayerBySteamID",
                     "exp": "Kick player by Steam ID",
                     "egs": [
                         "kickBySteamID STEAM_X:X:XXXXX"
