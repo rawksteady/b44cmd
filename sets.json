@@ -1,30 +1,30 @@
 {
     "sets": [
-	{
-	    "title": "misc",
-	    "updated": "2018-02-15",
-	    "prefix": "Cmd",
-	    "commands": [
-		{
-		    "cmd": "GetPlayerStats",
-		    "exp": "Show current player statistics on the server"
-		}
-	    ]
-	},
+        {
+            "title": "misc",
+            "updated": "2018-02-15",
+            "prefix": "Cmd",
+            "commands": [
+                {
+                    "cmd": "GetPlayerStats",
+                    "exp": "Show current player statistics on the server"
+                }
+            ]
+        },
         {
             "title": "client",
             "updated": "2018-02-14",
             "prefix": "Settings",
             "commands": [
-	        {
+                {
                     "cmd": "AspectRatio",
                     "exp": "Adjust aspect ratio"
                 },
-		{
-		    "cmd": "AAQuality",
-		    "exp": "Adjust anti-aliasing quality"
-		},
-		{
+                {
+                    "cmd": "AAQuality",
+                    "exp": "Adjust anti-aliasing quality"
+                },
+                {
                     "cmd": "BAROffset",
                     "exp": "BAR specific weapon offset"
                 },
@@ -35,7 +35,7 @@
                         "Brightness 1.2 // CURRENTLY DISABLED"
                     ]
                 },
-		{
+                {
                     "cmd": "CardPickupScale",
                     "exp": "Size of the dropped cards",
                     "egs": [
@@ -43,46 +43,46 @@
                         "CardPickupScale 0.5"
                     ]
                 },
-		{
-		    "cmd": "ControllerVibration",
-		    "exp": "Adjust vibration of controller"
-		},
-		{
+                {
+                    "cmd": "ControllerVibration",
+                    "exp": "Adjust vibration of controller"
+                },
+                {
                     "cmd": "ControllerVerticalSensitivity",
                     "exp": "Adjust vertical sensitivity of controller"
                 },
-		{
-		    "cmd": "ControllerSwapSticks",
-		    "exp": "Description needed"
-		},
-		{
-		    "cmd": "ControllerInvertVertical",
-		    "exp": "Invert vertical controller controls"
-		},
-		{
-		    "cmd": "ControllerInvertHorizontal",
-		    "exp": "Invert horizontal controller controls"
-		},
-		{
-		    "cmd": "ControllerAimTechnique",
-		    "exp": "Description needed"
-		},
-		{
-		    "cmd": "Contrast",
-		    "exp": "Adjust contrast"
-		},
-		{
-		    "cmd": "ChromaticAbberation",
-		    "exp": "Description needed"
-		},
+                {
+                    "cmd": "ControllerSwapSticks",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ControllerInvertVertical",
+                    "exp": "Invert vertical controller controls"
+                },
+                {
+                    "cmd": "ControllerInvertHorizontal",
+                    "exp": "Invert horizontal controller controls"
+                },
+                {
+                    "cmd": "ControllerAimTechnique",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "Contrast",
+                    "exp": "Adjust contrast"
+                },
+                {
+                    "cmd": "ChromaticAbberation",
+                    "exp": "Description needed"
+                },
                 {
                     "cmd": "ColourBlindMode",
                     "exp": "Adjust the colour blind mode"
                 },
-		{
-		    "cmd": "DisplayMode",
-		    "exp": "Description needed"
-		},
+                {
+                    "cmd": "DisplayMode",
+                    "exp": "Description needed"
+                },
                 {
                     "cmd": "DecorativeTrees",
                     "exp": "Description needed"
@@ -95,10 +95,10 @@
                     "cmd": "DynamicShadows",
                     "exp": "Description needed"
                 },
-		{
-		    "cmd": "EnableVoiceChat",
-		    "exp": "Enable/disable voice chat"
-		},
+                {
+                    "cmd": "EnableVoiceChat",
+                    "exp": "Enable/disable voice chat"
+                },
                 {
                     "cmd": "EffectsQuality",
                     "exp": "Effects quality i.e. explosions"
@@ -137,10 +137,10 @@
                     "cmd": "FixMapRotation",
                     "exp": "Enable/disable minimap rotation"
                 },
-		{
-		    "cmd": "Gamma",
-		    "exp": "Adjust gamma"
-		},
+                {
+                    "cmd": "Gamma",
+                    "exp": "Adjust gamma"
+                },
                 {
                     "cmd": "Gewehr43Offset",
                     "exp": "Gewehr 43 specific weapon offset"
@@ -165,10 +165,10 @@
                     "cmd": "Kar98Offset",
                     "exp": "Kar98k specific weapon offset"
                 },
-		{
-		    "cmd": "LeftHandedWeaponViewModel",
-		    "exp": "Change the WeaponWiewModel to the left side"
-		},
+                {
+                    "cmd": "LeftHandedWeaponViewModel",
+                    "exp": "Change the WeaponWiewModel to the left side"
+                },
                 {
                     "cmd": "LugerOffset",
                     "exp": "Luger specific weapon offset"
@@ -181,10 +181,10 @@
                     "cmd": "MasterVolume",
                     "exp": "Adjust master volume (everything)"
                 },
-		{
-		    "cmd": "MouseADSSensitivity",
-		    "exp": "Adjust Aim Down Sight sensitivity"
-		},
+                {
+                    "cmd": "MouseADSSensitivity",
+                    "exp": "Adjust Aim Down Sight sensitivity"
+                },
                 {
                     "cmd": "MouseAcceleration",
                     "exp": "Enable/disable mouse acceleration"
@@ -256,146 +256,146 @@
                     "cmd": "ResolutionQuality",
                     "exp": "Adjust resolution quality"
                 },
-		{
-		    "cmd": "STG44Offset",
-		    "exp": "STG44 specific weapon offset"
-		},
-		{
-		    "cmd": "Sprintzoom",
-		    "exp": "Description needed"
-		},
-		{
-		    "cmd": "SpringfieldOffset",
-		    "exp": "Springfield specific weapon offset"
-		},
-		{
-		    "cmd": "SoundWhenBackgrounded",
-		    "exp": "Description needed"
-		},
-		{
-		    "cmd": "SniperScopeType",
-		    "exp": "Description needed"
-		},
-		{
-		    "cmd": "SkylightShadows",
-		    "exp": "Description needed"
-		},
-		{
-		    "cmd": "SkipKillCam",
-		    "exp": "Description needed"
-		},
-		{
-		    "cmd": "ShowVault",
-		    "exp": "Enable/disable vault indicator"
-		},
-		{
-		    "cmd": "ShowTips",
-		    "exp": "Enable/disable tips"
-		},
-		{
-		    "cmd": "ShowStats",
-		    "exp": "Description needed"
-		},
-		{
-		    "cmd": "ShowScoreAward",
-		    "exp": "Description needed"
-		},
-		{
-		    "cmd": "ShowScreenEffects",
-		    "exp": "Description needed"
-		},
-		{
-		    "cmd": "ShowPickup",
-		    "exp": "Enable/disable pickup indicator"
-		},
-		{
-		    "cmd": "ShowMinimap",
-		    "exp": "Enable/disable minimap"
-		},
-		{
-		    "cmd": "ShowMarkers",
-		    "exp": "Description needed"
-		},
-		{
-		    "cmd": "ShowKillInfoPanel",
-		    "exp": "Description needed"
-		},
-		{
-		    "cmd": "ShowKillFeed",
-		    "exp": "Enable/disable the killfeed"
-		},
-		{
-		    "cmd": "ShowInventory",
-		    "exp": "Description needed"
-		},
-		{
-		    "cmd": "ShowInteraction",
-		    "exp": "Description needed"
-		},
-		{
-		    "cmd": "ShowGrenadeIcon",
-		    "exp": "Enable/disable grenade indicator"
-		},
-		{
-		    "cmd": "ShowGameTimer",
-		    "exp": "Enable/disable gametimer"
-		},
-		{
-		    "cmd": "ShowGameStatus",
-		    "exp": "Description needed"
-		},
-		{
-		    "cmd": "ShowFps",
-		    "exp": "Enable/disable to show the fps"
-		},
-		{
-		    "cmd": "ShowDistanceOnMaker",
-		    "exp": "Description needed"  
-		},
-		{
-		    "cmd": "ShowCrosshair",
-		    "exp": "Enable/disable crosshair"
-		},
-		{
-		    "cmd": "ShowClock",
-		    "exp": "Enable/disable to show the clock"
-		},
-		{
-		    "cmd": "ShowChat",
-		    "exp": "Enable/disable to show the chat"
-		},
-		{
-		    "cmd": "ShowBombGameOverviewAvatars",
-		    "exp": "Description needed"
-		},
-		{
-		    "cmd": "ShowBombGameOverview",
-		    "exp": "Description needed"
-		},
-		{
-		    "cmd": "ShowArcadeScores",
-		    "exp": "Description needed"
-		},
-		{
-		    "cmd": "ShotgunOffset",
-		    "exp": "Shotgun specific offset"
-		},
-		{
-		    "cmd": "ShadowQuality",
-		    "exp": "Adjust the quality of the shadows"
-		},
-		{
-		    "cmd": "ShadowColourGradingGamma",
-		    "exp": "Description needed"
-		},
-		{
-		    "cmd": "ScopedKar98Offset",
-		    "exp": "Scoped Kar98 specific offset"
-		},
-		{
-		    "cmd": "VoiceVolume",
-		    "exp": "Adjust the VOIP voice volume" 
-		},
+                {
+                    "cmd": "STG44Offset",
+                    "exp": "STG44 specific weapon offset"
+                },
+                {
+                    "cmd": "Sprintzoom",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "SpringfieldOffset",
+                    "exp": "Springfield specific weapon offset"
+                },
+                {
+                    "cmd": "SoundWhenBackgrounded",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "SniperScopeType",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "SkylightShadows",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "SkipKillCam",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ShowVault",
+                    "exp": "Enable/disable vault indicator"
+                },
+                {
+                    "cmd": "ShowTips",
+                    "exp": "Enable/disable tips"
+                },
+                {
+                    "cmd": "ShowStats",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ShowScoreAward",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ShowScreenEffects",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ShowPickup",
+                    "exp": "Enable/disable pickup indicator"
+                },
+                {
+                    "cmd": "ShowMinimap",
+                    "exp": "Enable/disable minimap"
+                },
+                {
+                    "cmd": "ShowMarkers",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ShowKillInfoPanel",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ShowKillFeed",
+                    "exp": "Enable/disable the killfeed"
+                },
+                {
+                    "cmd": "ShowInventory",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ShowInteraction",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ShowGrenadeIcon",
+                    "exp": "Enable/disable grenade indicator"
+                },
+                {
+                    "cmd": "ShowGameTimer",
+                    "exp": "Enable/disable gametimer"
+                },
+                {
+                    "cmd": "ShowGameStatus",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ShowFps",
+                    "exp": "Enable/disable to show the fps"
+                },
+                {
+                    "cmd": "ShowDistanceOnMaker",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ShowCrosshair",
+                    "exp": "Enable/disable crosshair"
+                },
+                {
+                    "cmd": "ShowClock",
+                    "exp": "Enable/disable to show the clock"
+                },
+                {
+                    "cmd": "ShowChat",
+                    "exp": "Enable/disable to show the chat"
+                },
+                {
+                    "cmd": "ShowBombGameOverviewAvatars",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ShowBombGameOverview",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ShowArcadeScores",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ShotgunOffset",
+                    "exp": "Shotgun specific offset"
+                },
+                {
+                    "cmd": "ShadowQuality",
+                    "exp": "Adjust the quality of the shadows"
+                },
+                {
+                    "cmd": "ShadowColourGradingGamma",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ScopedKar98Offset",
+                    "exp": "Scoped Kar98 specific offset"
+                },
+                {
+                    "cmd": "VoiceVolume",
+                    "exp": "Adjust the VOIP voice volume"
+                },
                 {
                     "cmd": "TargetDisplay",
                     "exp": "Description needed"
@@ -667,6 +667,541 @@
                 {
                     "cmd": "WwiseSpeakerMode",
                     "exp": "Description needed"
+                }
+            ]
+        },
+        {
+            "title": "config",
+            "updated": "2018-02-19",
+            "prefix": "Server.Config",
+            "commands": [
+                {
+                    "cmd": "AdminAnnouncementDuration",
+                    "exp": "How long an announcement should be shown",
+                    "egs": [
+                        "AdminAnnouncementDuration 10 // 10 seconds"
+                    ]
+                },
+                {
+                    "cmd": "AdminSteamIDs",
+                    "exp": "Which SteamID64 should be administrators"
+                },
+                {
+                    "cmd": "AllowClientBots",
+                    "exp": "Description needed",
+                    "egs": [
+                        "AllowClientBots True",
+                        "AllowClientBots False"
+                    ]
+                },
+                {
+                    "cmd": "AllowPlayerInvulnerable",
+                    "exp": "Description needed",
+                    "egs": [
+                        "AllowPlayerInvulnerable True",
+                        "AllowPlayerInvulnerable False"
+                    ]
+                },
+                {
+                    "cmd": "AllySpawnInfluenceDistance",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "AllySpawnInfluenceExpontent",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "AllySpawnInfluenceValue",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "AttackingNation",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "AttackObjectiveScore",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "AvailableMaps",
+                    "exp": "Maps available in the current pool"
+                },
+                {
+                    "cmd": "AvailableModes",
+                    "exp": "Modes available in the current pool"
+                },
+                {
+                    "cmd": "bAllowGlobalVoiceChat",
+                    "exp": "Enable/disable global voice chat",
+                    "egs": [
+                        "bAllowGlobalVoiceChat True",
+                        "bAllowGlobalVoiceChat False"
+                    ]
+                },
+                {
+                    "cmd": "bCheatAdminCmdsEnabled",
+                    "exp": "Enable/disable cheat commands",
+                    "egs": [
+                        "bCheatAdminCmdsEnabled True",
+                        "bCheatAdminCmdsEnabled False"
+                    ]
+                },
+                {
+                    "cmd": "CharacterDestroyTime",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "CountdownToStartTime",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "DeathScore",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "DebugStateChanges",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "DeckName",
+                    "exp": "Which deck of cards to use",
+                    "egs": [
+                        "DeckName BOMBDeck0 // Your deckname may vary"
+                    ]
+                },
+                {
+                    "cmd": "DedServerMaxTickRate",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "DefendObjectiveScore",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "DefuseEndsRound",
+                    "exp": "Description needed",
+                    "egs": [
+                        "DefuseEndsRound True",
+                        "DefuseEndsRound False"
+                    ]
+                },
+                {
+                    "cmd": "DefuseTime",
+                    "exp": "How long it takes to defuse the bomb",
+                    "egs": [
+                        "DefuseTime 7.5 // Default in seconds"
+                    ]
+                },
+                {
+                    "cmd": "DisableWeaponDrop",
+                    "exp": "Description needed",
+                    "egs": [
+                        "DisableWeaponDrop True",
+                        "DisableWeaponDrop False"
+                    ]
+                },
+                {
+                    "cmd": "DistanceToPickupBomb",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "DistanceToPlant",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "EndOnMatchPointWin",
+                    "exp": "Description needed",
+                    "egs": [
+                        "EndOnMatchPointWin True",
+                        "EndOnMatchPointWin False"
+                    ]
+                },
+                {
+                    "cmd": "EnemySpawnInfluenceDistance",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "EnemySpawnInfluenceExponent",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "EnemySpawnWeakForceInfluenceDistance",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "EnemySpawnWeakForceInfluenceExponent",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "EnemySpawnWeakForceInfluenceValue",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "FadeToBlackTime",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ForceFreeCamOnSpectatorStart",
+                    "exp": "Description needed",
+                    "egs": [
+                        "ForceFreeCamOnSpectatorStart True",
+                        "ForceFreeCamOnSpectatorStart False"
+                    ]
+                },
+                {
+                    "cmd": "FriendlyBulletDamageScale",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "FriendlyFire",
+                    "exp": "Description needed",
+                    "egs": [
+                        "FriendlyFire True",
+                        "FriendlyFire False"
+                    ]
+                },
+                {
+                    "cmd": "FriendlyGrenadeDamageScale",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "FuseTime",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "GameDrawScore",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "GameLossScore",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "GrenadeLinesAllowed",
+                    "exp": "Description needed",
+                    "egs": [
+                        "GrenadeLinesAllowed True",
+                        "GrenadeLinesAllowed False"
+                    ]
+                },
+                {
+                    "cmd": "HardRestartAfterMatch",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "IdleCasualServerTime",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "InactivePlayerStateLifeSpan",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "InitialReserveSlotTime",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "InterpStep",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "IsMatchMakingMode",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "LockedToFirstPerson",
+                    "exp": "Description needed",
+                    "egs": [
+                        "LockedToFirstPerson True",
+                        "LockedToFirstPerson False"
+                    ]
+                },
+                {
+                    "cmd": "MapRotation",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "MaxGunsOnRound",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "MaxPlayersPerTeam",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ModeRotation",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "NumBots",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "NumNations",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "NumRounds",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "NumTeams",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "OutlineAllowed",
+                    "exp": "Description needed",
+                    "egs": [
+                        "OutlineAllowed True",
+                        "OutlineAllowed False"
+                    ]
+                },
+                {
+                    "cmd": "Password",
+                    "exp": "Set a server password (case sensitive)",
+                    "egs": [
+                        "Password Foo",
+                        "Password baR",
+                        "Password foobar"
+                    ]
+                },
+                {
+                    "cmd": "PlantTime",
+                    "exp": "How long it takes to plant the bomb (seconds)",
+                    "egs": [
+                        "PlantTime 5 // Default"
+                    ]
+                },
+                {
+                    "cmd": "PlayerAssistScore",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "PlayerKillScore",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "PlayMode",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "PostJoinReserveSlotTime",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "PostMatchTime",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "PostRoundPauseTime",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "PostRoundTime",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "PreviousSpawnAreaDistance",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "PreviousSpawnAreaInfluence",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "PreviousSpawnAreaInfluenceExponent",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "PreviousSpawnInfluence",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "RandomMapROtationEnabled",
+                    "exp": "Description needed",
+                    "egs": [
+                        "RandomMapROtationEnabled True",
+                        "RandomMapROtationEnabled False"
+                    ]
+                },
+                {
+                    "cmd": "RandomSpawnInfluence",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "RecordReplays",
+                    "exp": "Description needed",
+                    "egs": [
+                        "RecordReplays True",
+                        "RecordReplays False"
+                    ]
+                },
+                {
+                    "cmd": "ReportReasons",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "RequiredPlayers",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "RespawnDelay",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "RoundDrawScore",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "RoundLossScore",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "RoundTime",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "RoundWinScore",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ScoreToWinRound",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "SelfGrenadeDamageScale",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "SelfOtherDamageScale",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "SendSafeString",
+                    "exp": "Description needed",
+                    "egs": [
+                        "SendSafeString True",
+                        "SendSafeString False"
+                    ]
+                },
+                {
+                    "cmd": "ServerName",
+                    "exp": "Name of the server",
+                    "egs": [
+                        "ServerName Awesomesauce // Restart might be required"
+                    ]
+                },
+                {
+                    "cmd": "SetupRoundTime",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "ShouldTryBalanceTeamsOnJoin",
+                    "exp": "Description needed",
+                    "egs": [
+                        "ShouldTryBalanceTeamsOnJoin True",
+                        "ShouldTryBalanceTeamsOnJoin False"
+                    ]
+                },
+                {
+                    "cmd": "SpectatorTeamEnabled",
+                    "exp": "Description needed",
+                    "egs": [
+                        "SpectatorTeamEnabled True",
+                        "SpectatorTeamEnabled False"
+                    ]
+                },
+                {
+                    "cmd": "SpectatorTransferTime",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "SpinRoundBomb",
+                    "exp": "Description needed",
+                    "egs": [
+                        "SpinRoundBomb True",
+                        "SpinRoundBomb False"
+                    ]
+                },
+                {
+                    "cmd": "StartType",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "StratTime",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "SwapSidesRound",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "TeamAssistScore",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "TeamDeathAreaDistance",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "TeamDeathAreaInfluence",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "TeamDeathAreaInfluenceExponent",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "TeamDeathAreaTimeOfRelevance",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "TeamDeathLastSpawnAreaDistance",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "TeamDeathLastSpawnAreaInfluence",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "TeamDeathLastSpawnAreaInfluenceExponent",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "TeamDeathLastSpawnAreaTimeOfRelevance",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "TeamKillScore",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "TeamNames",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "TimeUntilTravel",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "VoteTime",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "WaitingToStartTimer",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "WarmupRespawnTime",
+                    "exp": "Description needed"
+                },
+                {
+                    "cmd": "WinOnTeamEmpty",
+                    "exp": "Description needed",
+                    "egs": [
+                        "WinOnTeamEmpty True",
+                        "WinOnTeamEmpty False"
+                    ]
                 }
             ]
         }
