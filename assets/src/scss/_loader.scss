@@ -1,0 +1,29 @@
+//  ======================================================================
+//  Basic setup
+//  ======================================================================
+
+    .loader {
+        border: 0.125rem solid #222222;
+        border-top-color: #ffffff;
+        border-radius: 100%;
+        display: block;
+        height: 4rem;
+        opacity: 1;
+        transition: opacity 150ms ease-in-out;
+        width: 4rem;
+
+        position: absolute;
+        top: calc(50% - 2rem);
+        left: calc(50% - 2rem);
+
+        animation: loader 500ms linear infinite;
+    }
+
+        .loader.--out {
+            opacity: 0;
+        }
+
+        @keyframes loader {
+            0%   { transform: rotate(0deg); }
+            100% { transform: rotate(359.9deg); }
+        }
