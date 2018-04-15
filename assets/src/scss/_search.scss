@@ -1,0 +1,55 @@
+//  ======================================================================
+//  Commands
+//  ======================================================================
+
+    nav {
+        background-color: #111111;
+        border-bottom: 1px solid #222222;
+        padding: 1rem 10vw;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .cmd-search {
+        background: #222222 url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#aaaaaa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>') no-repeat 1em center;
+        background-size: 1.5em;
+        border-radius: 3px;
+        border-width: 0;
+        color: #dddddd;
+        display: block;
+        float: left;
+        font-family: inherit;
+        font-size: 100%;
+        height: 3rem;
+        padding: 0 1em 0 3.5em;
+        width: calc(100% - 4rem);
+
+        &:focus {
+            background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#dddddd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>');
+            outline: 0;
+        }
+    }
+
+    .info-link {
+        background: #222222 url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#aaaaaa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="8"></line></svg>') no-repeat center;
+        background-size: 1.5em;
+        border-radius: 3px;
+        display: block;
+        float: right;
+        height: 3rem;
+        width: 3rem;
+
+        span {
+            color: transparent;
+            font-size: 0;
+        }
+
+        &:hover,
+        &:focus {
+            background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#dddddd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="8"></line></svg>');
+            outline: 0;
+        }
+    }

@@ -1,0 +1,51 @@
+//  ======================================================================
+//  Basic setup
+//  ======================================================================
+
+    body {
+        background-color: #111111;
+        color: #888888;
+        display: flex;
+        flex-direction: column;
+        font-family: Consolas, Menlo, monospace, monospace;
+        font-size: 81.25%;
+        line-height: 1.618;
+        min-height: 100vh;
+        overflow-y: scroll;
+        padding-top: 5rem;
+    }
+        @media (min-width: 62em) {
+        body {
+            font-size: 100%;
+        } }
+    .site-header,
+    .site-nav,
+    .site-main {
+        width: 100%;
+    }
+    .site-main {
+        flex: 1;
+        position: relative;
+    }
+    .site-header {
+        align-self: flex-end;
+        order: 3;
+        padding: 5rem 10vw;
+    }
+    a {
+        color: #dddddd;
+        text-decoration: none;
+    }
+    h1 {
+        color: #dddddd;
+    }
+    .last-update {
+        background: #222222 url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#dddddd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>') no-repeat 1em center;
+        background-size: 1.5em;
+        border-radius: 3px;
+        display: inline-block;
+        height: 3rem;
+        line-height: 3rem;
+        padding-left: 3.5em;
+        padding-right: 2em;
+    }

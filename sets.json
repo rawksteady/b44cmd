@@ -1,1208 +1,1424 @@
 {
-    "sets": [
+    "updated": "2018-03-15",
+    "commands": [
         {
-            "title": "misc",
-            "updated": "2018-02-15",
-            "prefix": "Cmd",
-            "commands": [
-                {
-                    "cmd": "GetPlayerStats",
-                    "exp": "Show current player statistics on the server"
-                }
+            "prefix": "Cmd.",
+            "command": "GetPlayerStats",
+            "description": "Show current player statistics on the server"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "AspectRatio",
+            "description": "Adjust aspect ratio"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "AAQuality",
+            "description": "Adjust anti-aliasing quality"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "BAROffset",
+            "description": "BAR specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "Brightness",
+            "description": "Adjust brightness",
+            "examples": [
+                "Brightness 1.2 // CURRENTLY DISABLED"
             ]
         },
         {
-            "title": "client",
-            "updated": "2018-02-14",
-            "prefix": "Settings",
-            "commands": [
-                {
-                    "cmd": "AspectRatio",
-                    "exp": "Adjust aspect ratio"
-                },
-                {
-                    "cmd": "AAQuality",
-                    "exp": "Adjust anti-aliasing quality"
-                },
-                {
-                    "cmd": "BAROffset",
-                    "exp": "BAR specific weapon offset"
-                },
-                {
-                    "cmd": "Brightness",
-                    "exp": "Adjust brightness",
-                    "egs": [
-                        "Brightness 1.2 // CURRENTLY DISABLED"
-                    ]
-                },
-                {
-                    "cmd": "CardPickupScale",
-                    "exp": "Size of the dropped cards",
-                    "egs": [
-                        "CardPickupScale 1",
-                        "CardPickupScale 0.5"
-                    ]
-                },
-                {
-                    "cmd": "ControllerVibration",
-                    "exp": "Adjust vibration of controller"
-                },
-                {
-                    "cmd": "ControllerVerticalSensitivity",
-                    "exp": "Adjust vertical sensitivity of controller"
-                },
-                {
-                    "cmd": "ControllerSwapSticks",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ControllerInvertVertical",
-                    "exp": "Invert vertical controller controls"
-                },
-                {
-                    "cmd": "ControllerInvertHorizontal",
-                    "exp": "Invert horizontal controller controls"
-                },
-                {
-                    "cmd": "ControllerAimTechnique",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "Contrast",
-                    "exp": "Adjust contrast"
-                },
-                {
-                    "cmd": "ChromaticAbberation",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ColourBlindMode",
-                    "exp": "Adjust the colour blind mode"
-                },
-                {
-                    "cmd": "DisplayMode",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "DecorativeTrees",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "Dof",
-                    "exp": "Adjust depth of field"
-                },
-                {
-                    "cmd": "DynamicShadows",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "EnableVoiceChat",
-                    "exp": "Enable/disable voice chat"
-                },
-                {
-                    "cmd": "EffectsQuality",
-                    "exp": "Effects quality i.e. explosions"
-                },
-                {
-                    "cmd": "EffectsVolume",
-                    "exp": "Effects volume"
-                },
-                {
-                    "cmd": "EnableDevConsole",
-                    "exp": "Enable/disable the developer console"
-                },
-                {
-                    "cmd": "FOV",
-                    "exp": "Adjusts your FOV (Field of View)",
-                    "egs": [
-                        "Fov 105 // Undecided if values higher than the ingame settings will be allowed"
-                    ]
-                },
-                {
-                    "cmd": "FoliageQuality",
-                    "exp": "Adjust the quality of the foliage"
-                },
-                {
-                    "cmd": "Fps",
-                    "exp": "Set max FPS",
-                    "egs": [
-                        "Fps 200"
-                    ]
-                },
-                {
-                    "cmd": "FixedWeaponViewModel",
-                    "exp": "Controls viewmodel size/position"
-                },
-                {
-                    "cmd": "FixMapRotation",
-                    "exp": "Enable/disable minimap rotation"
-                },
-                {
-                    "cmd": "Gamma",
-                    "exp": "Adjust gamma"
-                },
-                {
-                    "cmd": "Gewehr43Offset",
-                    "exp": "Gewehr 43 specific weapon offset"
-                },
-                {
-                    "cmd": "GlobalWeaponOffset",
-                    "exp": "Global weapon offsets"
-                },
-                {
-                    "cmd": "GraphicsQuality",
-                    "exp": "Adjust grahics quality"
-                },
-                {
-                    "cmd": "HeadBob",
-                    "exp": "Enable/disable headbob"
-                },
-                {
-                    "cmd": "HudScale",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "Kar98Offset",
-                    "exp": "Kar98k specific weapon offset"
-                },
-                {
-                    "cmd": "LeftHandedWeaponViewModel",
-                    "exp": "Change the WeaponWiewModel to the left side"
-                },
-                {
-                    "cmd": "LugerOffset",
-                    "exp": "Luger specific weapon offset"
-                },
-                {
-                    "cmd": "MP40Offset",
-                    "exp": "MP40 specific weapon offset"
-                },
-                {
-                    "cmd": "MasterVolume",
-                    "exp": "Adjust master volume (everything)"
-                },
-                {
-                    "cmd": "MouseADSSensitivity",
-                    "exp": "Adjust Aim Down Sight sensitivity"
-                },
-                {
-                    "cmd": "MouseAcceleration",
-                    "exp": "Enable/disable mouse acceleration"
-                },
-                {
-                    "cmd": "MouseAccelerationAmount",
-                    "exp": "Amount of mouse acceleration"
-                },
-                {
-                    "cmd": "MouseFOVScale",
-                    "exp": "Decription needed"
-                },
-                {
-                    "cmd": "MouseInvertLook",
-                    "exp": "Enable/disable inverted Y axis"
-                },
-                {
-                    "cmd": "MouseSensitivity",
-                    "exp": "Adjust mouse sensitivity",
-                    "egs": [
-                        "MouseSensitivity 3 // Adjust number to your liking"
-                    ]
-                },
-                {
-                    "cmd": "MotionBlur",
-                    "exp": "Enable/disable motion blur"
-                },
-                {
-                    "cmd": "MusicVolume",
-                    "exp": "Adjust music volume"
-                },
-                {
-                    "cmd": "M1CarbineOffset",
-                    "exp": "M1 Carbine specific weapon offset"
-                },
-                {
-                    "cmd": "M1GarandOffset",
-                    "exp": "M1 Garand specific weapon offset"
-                },
-                {
-                    "cmd": "M1911Offset",
-                    "exp": "M1911 specific weapon offset"
-                },
-                {
-                    "cmd": "PanningMode",
-                    "exp": "Audio panning mode, defaulted to headphones"
-                },
-                {
-                    "cmd": "PPQuality",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "PlayerChatMicVolume",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "PlayerRecieveVolume",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "PlayerShoutVolume",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "Resolution",
-                    "exp": "Change video resolution"
-                },
-                {
-                    "cmd": "ResolutionQuality",
-                    "exp": "Adjust resolution quality"
-                },
-                {
-                    "cmd": "STG44Offset",
-                    "exp": "STG44 specific weapon offset"
-                },
-                {
-                    "cmd": "Sprintzoom",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "SpringfieldOffset",
-                    "exp": "Springfield specific weapon offset"
-                },
-                {
-                    "cmd": "SoundWhenBackgrounded",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "SniperScopeType",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "SkylightShadows",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "SkipKillCam",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ShowVault",
-                    "exp": "Enable/disable vault indicator"
-                },
-                {
-                    "cmd": "ShowTips",
-                    "exp": "Enable/disable tips"
-                },
-                {
-                    "cmd": "ShowStats",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ShowScoreAward",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ShowScreenEffects",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ShowPickup",
-                    "exp": "Enable/disable pickup indicator"
-                },
-                {
-                    "cmd": "ShowMinimap",
-                    "exp": "Enable/disable minimap"
-                },
-                {
-                    "cmd": "ShowMarkers",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ShowKillInfoPanel",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ShowKillFeed",
-                    "exp": "Enable/disable the killfeed"
-                },
-                {
-                    "cmd": "ShowInventory",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ShowInteraction",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ShowGrenadeIcon",
-                    "exp": "Enable/disable grenade indicator"
-                },
-                {
-                    "cmd": "ShowGameTimer",
-                    "exp": "Enable/disable gametimer"
-                },
-                {
-                    "cmd": "ShowGameStatus",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ShowFps",
-                    "exp": "Enable/disable to show the fps"
-                },
-                {
-                    "cmd": "ShowDistanceOnMaker",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ShowCrosshair",
-                    "exp": "Enable/disable crosshair"
-                },
-                {
-                    "cmd": "ShowClock",
-                    "exp": "Enable/disable to show the clock"
-                },
-                {
-                    "cmd": "ShowChat",
-                    "exp": "Enable/disable to show the chat"
-                },
-                {
-                    "cmd": "ShowBombGameOverviewAvatars",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ShowBombGameOverview",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ShowArcadeScores",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ShotgunOffset",
-                    "exp": "Shotgun specific offset"
-                },
-                {
-                    "cmd": "ShadowQuality",
-                    "exp": "Adjust the quality of the shadows"
-                },
-                {
-                    "cmd": "ShadowColourGradingGamma",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ScopedKar98Offset",
-                    "exp": "Scoped Kar98 specific offset"
-                },
-                {
-                    "cmd": "VoiceVolume",
-                    "exp": "Adjust the VOIP voice volume"
-                },
-                {
-                    "cmd": "TargetDisplay",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "TextureQuality",
-                    "exp": "Adjust texture quality"
-                },
-                {
-                    "cmd": "TextureStreamingEnabled",
-                    "exp": "Enable/disable texture streaming"
-                },
-                {
-                    "cmd": "TeamVoiceChat",
-                    "exp": "Decription needed"
-                },
-                {
-                    "cmd": "ThompsonOffset",
-                    "exp": "Thompson specific weapon offset"
-                },
-                {
-                    "cmd": "UIVolume",
-                    "exp": "Adjust UI volume i.e. menu sounds"
-                },
-                {
-                    "cmd": "UseGlobalWeaponOffset",
-                    "exp": "Enable/disable global weapon offsets"
-                },
-                {
-                    "cmd": "Version",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ViewDistanceQuality",
-                    "exp": "Adjust view distance quality"
-                },
-                {
-                    "cmd": "Vignette",
-                    "exp": "Enable/disable vignette"
-                },
-                {
-                    "cmd": "Vsync",
-                    "exp": "Enable/disable vsync"
-                },
-                {
-                    "cmd": "VoiceChatMode",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "WorldMasterColourGradingContrast",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "WorldMasterColourGradingGamma",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "WorldMasterColourGradingSaturation",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "WorldContrastToneBlue",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "WorldContrastToneGreen",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "WorldContrastToneRed",
-                    "exp": "Description needed"
-                }
+            "prefix": "Settings.",
+            "command": "CardPickupScale",
+            "description": "Size of the dropped cards",
+            "examples": [
+                "CardPickupScale 1",
+                "CardPickupScale 0.5"
             ]
         },
         {
-            "title": "server",
-            "updated": "2018-02-14",
-            "prefix": "Server",
-            "commands": [
-                {
-                    "cmd": "AddBot",
-                    "exp": "Add bot(s) to the server",
-                    "egs": [
-                        "addBot 1 // Adds 1 bot",
-                        "addBot 10 // Adds 10 bots"
-                    ]
-                },
-                {
-                    "cmd": "Announce",
-                    "exp": "Echo a message to the server",
-                    "egs": [
-                        "announce Hello"
-                    ]
-                },
-                {
-                    "cmd": "ChangeMap",
-                    "exp": "Change map & mode",
-                    "egs": [
-                        "ChangeMap AimMap_01 BOMB",
-                        "ChangeMap AimMap_01 CTF",
-                        "ChangeMap AimMap_01 DOM",
-                        "ChangeMap AimMap_01 TDM",
-                        "ChangeMap Battery BOMB",
-                        "ChangeMap Battery CTF",
-                        "ChangeMap Battery DOM",
-                        "ChangeMap Battery TDM",
-                        "ChangeMap Coastal BOMB",
-                        "ChangeMap Coastal DOM",
-                        "ChangeMap Coastal CTF",
-                        "ChangeMap Coastal TDM",
-                        "ChangeMap Derailed BOMB",
-                        "ChangeMap Derailed CTF",
-                        "ChangeMap Derailed DOM",
-                        "ChangeMap Derailed TDM",
-                        "ChangeMap Liberation BOMB",
-                        "ChangeMap Liberation DOM",
-                        "ChangeMap Liberation CTF",
-                        "ChangeMap Liberation TDM",
-                        "ChangeMap Manorhouse_V1 BOMB",
-                        "ChangeMap Manorhouse_V1 CTF",
-                        "ChangeMap Manorhouse_V1 DOM",
-                        "ChangeMap Manorhouse_V1 TDM",
-                        "ChangeMap Manorhouse_V2 BOMB",
-                        "ChangeMap Manorhouse_V2 CTF",
-                        "ChangeMap Manorhouse_V2 DOM",
-                        "ChangeMap Manorhouse_V2 TDM",
-                        "ChangeMap Outpost BOMB",
-                        "ChangeMap Outpost CTF",
-                        "ChangeMap Outpost DOM",
-                        "ChangeMap Outpost TDM"
-                    ]
-                },
-                {
-                    "cmd": "ChangeToTeam",
-                    "exp": "Change your team",
-                    "egs": [
-                        "changeTeam 0",
-                        "changeTeam 1"
-                    ]
-                },
-                {
-                    "cmd": "Config",
-                    "exp": "Change server config values",
-                    "egs": [
-                        "config.somevalue 13"
-                    ]
-                },
-                {
-                    "cmd": "DisconnectAll",
-                    "exp": "Disconnect everyone from the server"
-                },
-                {
-                    "cmd": "EndRound",
-                    "exp": "Ends the current round"
-                },
-                {
-                    "cmd": "GiveAmmo",
-                    "exp": "Give youself ammo",
-                    "egs": [
-                        "giveAmmo 90"
-                    ]
-                },
-                {
-                    "cmd": "GiveGrenade",
-                    "exp": "Give youself grenade(s)",
-                    "egs": [
-                        "giveGrenade 1",
-                        "giveGrenade 23"
-                    ]
-                },
-                {
-                    "cmd": "GiveSmokeGrenade",
-                    "exp": "Give youself smoke grenade(s)",
-                    "egs": [
-                        "giveSmokeGrenade 1",
-                        "giveSmokeGrenade 23"
-                    ]
-                },
-                {
-                    "cmd": "GiveWeapon",
-                    "exp": "Give yourself a specific weapon",
-                    "egs": [
-                        "GiveWeapon Gewehr_43 1",
-                        "GiveWeapon Kar_98k 1",
-                        "GiveWeapon Kar_98k_Scoped",
-                        "GiveWeapon Luger 1",
-                        "GiveWeapon M1_Carbine 1",
-                        "GiveWeapon M1_Garand 1",
-                        "GiveWeapon M1911 1",
-                        "GiveWeapon M1918_BAR 1",
-                        "GiveWeapon MP40 1",
-                        "GiveWeapon Springfield_Scoped 1",
-                        "GiveWeapon STG44 1",
-                        "GiveWeapon Thompson 1",
-                        "GiveWeapon Winchester_1897 1"
-                    ]
-                },
-                {
-                    "cmd": "Invulnerable",
-                    "exp": "Make yourself invulnerable",
-                    "egs": [
-                        "Invulnerable // Toggles invulnerability on/off"
-                    ]
-                },
-                {
-                    "cmd": "KickByPlayerName",
-                    "exp": "Kick player by name",
-                    "egs": [
-                        "kickByPlayerName toxicplayer"
-                    ]
-                },
-                {
-                    "cmd": "KickPlayerBySteamID",
-                    "exp": "Kick player by Steam ID",
-                    "egs": [
-                        "kickBySteamID STEAM_X:X:XXXXX"
-                    ]
-                },
-                {
-                    "cmd": "KillBots",
-                    "exp": "Kill alive bot(s)"
-                },
-                {
-                    "cmd": "ListPartyMembers",
-                    "exp": "Lists all party members"
-                },
-                {
-                    "cmd": "LoadNextGame",
-                    "exp": "Load next map/mode in roation"
-                },
-                {
-                    "cmd": "LoseRound",
-                    "exp": "Force lose current round"
-                },
-                {
-                    "cmd": "Pause",
-                    "exp": "Pause/unpause the game",
-                    "egs": [
-                        "Pause // Toggles pause on/off"
-                    ]
-                },
-                {
-                    "cmd": "Restart",
-                    "exp": "Restarts the server"
-                },
-                {
-                    "cmd": "Shutdown",
-                    "exp": "Shuts the server down"
-                },
-                {
-                    "cmd": "State",
-                    "exp": "Change gamestate",
-                    "egs": [
-                        "state CountdownToStart",
-                        "state PostMatch",
-                        "state PostRound",
-                        "state SetupRound",
-                        "state WaitingToStart"
-                    ]
-                },
-                {
-                    "cmd": "WinRound",
-                    "exp": "Force win current round"
-                },
-                {
-                    "cmd": "WwiseHeadPhoneMode",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "WwiseSpeakerMode",
-                    "exp": "Description needed"
-                }
+            "prefix": "Settings.",
+            "command": "ControllerVibration",
+            "description": "Adjust vibration of controller"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ControllerVerticalSensitivity",
+            "description": "Adjust vertical sensitivity of controller"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ControllerSwapSticks",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ControllerInvertVertical",
+            "description": "Invert vertical controller controls"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ControllerInvertHorizontal",
+            "description": "Invert horizontal controller controls"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ControllerAimTechnique",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "Contrast",
+            "description": "Adjust contrast"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ChromaticAbberation",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ColourBlindMode",
+            "description": "Adjust the colour blind mode"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "DisplayMode",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "DecorativeTrees",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "Dof",
+            "description": "Adjust depth of field"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "DynamicShadows",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "EnableVoiceChat",
+            "description": "Enable/disable voice chat"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "EffectsQuality",
+            "description": "Effects quality i.e. descriptionlosions"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "EffectsVolume",
+            "description": "Effects volume"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "EnableDevConsole",
+            "description": "Enable/disable the developer console"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "FOV",
+            "description": "Adjusts your FOV (Field of View)",
+            "examples": [
+                "Fov 105 // Undecided if values higher than the ingame settings will be allowed"
             ]
         },
         {
-            "title": "config",
-            "updated": "2018-02-19",
-            "prefix": "Server.Config",
-            "commands": [
-                {
-                    "cmd": "AdminAnnouncementDuration",
-                    "exp": "How long an announcement should be shown",
-                    "egs": [
-                        "AdminAnnouncementDuration 10 // 10 seconds"
-                    ]
-                },
-                {
-                    "cmd": "AdminSteamIDs",
-                    "exp": "Which SteamID64 should be administrators"
-                },
-                {
-                    "cmd": "AllowClientBots",
-                    "exp": "Description needed",
-                    "egs": [
-                        "AllowClientBots True",
-                        "AllowClientBots False"
-                    ]
-                },
-                {
-                    "cmd": "AllowPlayerInvulnerable",
-                    "exp": "Description needed",
-                    "egs": [
-                        "AllowPlayerInvulnerable True",
-                        "AllowPlayerInvulnerable False"
-                    ]
-                },
-                {
-                    "cmd": "AllySpawnInfluenceDistance",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "AllySpawnInfluenceExpontent",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "AllySpawnInfluenceValue",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "AttackingNation",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "AttackObjectiveScore",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "AvailableMaps",
-                    "exp": "Maps available in the current pool"
-                },
-                {
-                    "cmd": "AvailableModes",
-                    "exp": "Modes available in the current pool"
-                },
-                {
-                    "cmd": "bAllowGlobalVoiceChat",
-                    "exp": "Enable/disable global voice chat",
-                    "egs": [
-                        "bAllowGlobalVoiceChat True",
-                        "bAllowGlobalVoiceChat False"
-                    ]
-                },
-                {
-                    "cmd": "bCheatAdminCmdsEnabled",
-                    "exp": "Enable/disable cheat commands",
-                    "egs": [
-                        "bCheatAdminCmdsEnabled True",
-                        "bCheatAdminCmdsEnabled False"
-                    ]
-                },
-                {
-                    "cmd": "CharacterDestroyTime",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "CountdownToStartTime",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "DeathScore",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "DebugStateChanges",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "DeckName",
-                    "exp": "Which deck of cards to use",
-                    "egs": [
-                        "DeckName BOMBDeck0 // Your deckname may vary"
-                    ]
-                },
-                {
-                    "cmd": "DedServerMaxTickRate",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "DefendObjectiveScore",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "DefuseEndsRound",
-                    "exp": "Description needed",
-                    "egs": [
-                        "DefuseEndsRound True",
-                        "DefuseEndsRound False"
-                    ]
-                },
-                {
-                    "cmd": "DefuseTime",
-                    "exp": "How long it takes to defuse the bomb",
-                    "egs": [
-                        "DefuseTime 7.5 // Default in seconds"
-                    ]
-                },
-                {
-                    "cmd": "DisableWeaponDrop",
-                    "exp": "Description needed",
-                    "egs": [
-                        "DisableWeaponDrop True",
-                        "DisableWeaponDrop False"
-                    ]
-                },
-                {
-                    "cmd": "DistanceToPickupBomb",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "DistanceToPlant",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "EndOnMatchPointWin",
-                    "exp": "Description needed",
-                    "egs": [
-                        "EndOnMatchPointWin True",
-                        "EndOnMatchPointWin False"
-                    ]
-                },
-                {
-                    "cmd": "EnemySpawnInfluenceDistance",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "EnemySpawnInfluenceExponent",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "EnemySpawnWeakForceInfluenceDistance",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "EnemySpawnWeakForceInfluenceExponent",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "EnemySpawnWeakForceInfluenceValue",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "FadeToBlackTime",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ForceFreeCamOnSpectatorStart",
-                    "exp": "Description needed",
-                    "egs": [
-                        "ForceFreeCamOnSpectatorStart True",
-                        "ForceFreeCamOnSpectatorStart False"
-                    ]
-                },
-                {
-                    "cmd": "FriendlyBulletDamageScale",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "FriendlyFire",
-                    "exp": "Description needed",
-                    "egs": [
-                        "FriendlyFire True",
-                        "FriendlyFire False"
-                    ]
-                },
-                {
-                    "cmd": "FriendlyGrenadeDamageScale",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "FuseTime",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "GameDrawScore",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "GameLossScore",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "GrenadeLinesAllowed",
-                    "exp": "Description needed",
-                    "egs": [
-                        "GrenadeLinesAllowed True",
-                        "GrenadeLinesAllowed False"
-                    ]
-                },
-                {
-                    "cmd": "HardRestartAfterMatch",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "IdleCasualServerTime",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "InactivePlayerStateLifeSpan",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "InitialReserveSlotTime",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "InterpStep",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "IsMatchMakingMode",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "LockedToFirstPerson",
-                    "exp": "Description needed",
-                    "egs": [
-                        "LockedToFirstPerson True",
-                        "LockedToFirstPerson False"
-                    ]
-                },
-                {
-                    "cmd": "MapRotation",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "MaxGunsOnRound",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "MaxPlayersPerTeam",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ModeRotation",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "NumBots",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "NumNations",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "NumRounds",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "NumTeams",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "OutlineAllowed",
-                    "exp": "Description needed",
-                    "egs": [
-                        "OutlineAllowed True",
-                        "OutlineAllowed False"
-                    ]
-                },
-                {
-                    "cmd": "Password",
-                    "exp": "Set a server password (case sensitive)",
-                    "egs": [
-                        "Password Foo",
-                        "Password baR",
-                        "Password foobar"
-                    ]
-                },
-                {
-                    "cmd": "PlantTime",
-                    "exp": "How long it takes to plant the bomb (seconds)",
-                    "egs": [
-                        "PlantTime 5 // Default"
-                    ]
-                },
-                {
-                    "cmd": "PlayerAssistScore",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "PlayerKillScore",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "PlayMode",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "PostJoinReserveSlotTime",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "PostMatchTime",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "PostRoundPauseTime",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "PostRoundTime",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "PreviousSpawnAreaDistance",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "PreviousSpawnAreaInfluence",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "PreviousSpawnAreaInfluenceExponent",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "PreviousSpawnInfluence",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "RandomMapROtationEnabled",
-                    "exp": "Description needed",
-                    "egs": [
-                        "RandomMapROtationEnabled True",
-                        "RandomMapROtationEnabled False"
-                    ]
-                },
-                {
-                    "cmd": "RandomSpawnInfluence",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "RecordReplays",
-                    "exp": "Description needed",
-                    "egs": [
-                        "RecordReplays True",
-                        "RecordReplays False"
-                    ]
-                },
-                {
-                    "cmd": "ReportReasons",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "RequiredPlayers",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "RespawnDelay",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "RoundDrawScore",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "RoundLossScore",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "RoundTime",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "RoundWinScore",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ScoreToWinRound",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "SelfGrenadeDamageScale",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "SelfOtherDamageScale",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "SendSafeString",
-                    "exp": "Description needed",
-                    "egs": [
-                        "SendSafeString True",
-                        "SendSafeString False"
-                    ]
-                },
-                {
-                    "cmd": "ServerName",
-                    "exp": "Name of the server",
-                    "egs": [
-                        "ServerName Awesomesauce // Restart might be required"
-                    ]
-                },
-                {
-                    "cmd": "SetupRoundTime",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "ShouldTryBalanceTeamsOnJoin",
-                    "exp": "Description needed",
-                    "egs": [
-                        "ShouldTryBalanceTeamsOnJoin True",
-                        "ShouldTryBalanceTeamsOnJoin False"
-                    ]
-                },
-                {
-                    "cmd": "SpectatorTeamEnabled",
-                    "exp": "Description needed",
-                    "egs": [
-                        "SpectatorTeamEnabled True",
-                        "SpectatorTeamEnabled False"
-                    ]
-                },
-                {
-                    "cmd": "SpectatorTransferTime",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "SpinRoundBomb",
-                    "exp": "Description needed",
-                    "egs": [
-                        "SpinRoundBomb True",
-                        "SpinRoundBomb False"
-                    ]
-                },
-                {
-                    "cmd": "StartType",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "StratTime",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "SwapSidesRound",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "TeamAssistScore",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "TeamDeathAreaDistance",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "TeamDeathAreaInfluence",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "TeamDeathAreaInfluenceExponent",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "TeamDeathAreaTimeOfRelevance",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "TeamDeathLastSpawnAreaDistance",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "TeamDeathLastSpawnAreaInfluence",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "TeamDeathLastSpawnAreaInfluenceExponent",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "TeamDeathLastSpawnAreaTimeOfRelevance",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "TeamKillScore",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "TeamNames",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "TimeUntilTravel",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "VoteTime",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "WaitingToStartTimer",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "WarmupRespawnTime",
-                    "exp": "Description needed"
-                },
-                {
-                    "cmd": "WinOnTeamEmpty",
-                    "exp": "Description needed",
-                    "egs": [
-                        "WinOnTeamEmpty True",
-                        "WinOnTeamEmpty False"
-                    ]
-                }
+            "prefix": "Settings.",
+            "command": "FoliageQuality",
+            "description": "Adjust the quality of the foliage"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "Fps",
+            "description": "Set max FPS",
+            "examples": [
+                "Fps 200"
+            ]
+        },
+        {
+            "prefix": "Settings.",
+            "command": "FixedWeaponViewModel",
+            "description": "Controls viewmodel size/position"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "FixMapRotation",
+            "description": "Enable/disable minimap rotation"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "Gamma",
+            "description": "Adjust gamma"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "Gewehr43Offset",
+            "description": "Gewehr 43 specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "GlobalWeaponOffset",
+            "description": "Global weapon offsets"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "GraphicsQuality",
+            "description": "Adjust grahics quality"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "HeadBob",
+            "description": "Enable/disable headbob"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "HudScale",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "Kar98Offset",
+            "description": "Kar98k specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "LeftHandedWeaponViewModel",
+            "description": "Change the WeaponWiewModel to the left side"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "LugerOffset",
+            "description": "Luger specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "MP40Offset",
+            "description": "MP40 specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "MasterVolume",
+            "description": "Adjust master volume (everything)"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "MouseADSSensitivity",
+            "description": "Adjust Aim Down Sight sensitivity"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "MouseAcceleration",
+            "description": "Enable/disable mouse acceleration"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "MouseAccelerationAmount",
+            "description": "Amount of mouse acceleration"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "MouseFOVScale",
+            "description": "Decription needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "MouseInvertLook",
+            "description": "Enable/disable inverted Y axis"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "MouseSensitivity",
+            "description": "Adjust mouse sensitivity",
+            "examples": [
+                "MouseSensitivity 3 // Adjust number to your liking"
+            ]
+        },
+        {
+            "prefix": "Settings.",
+            "command": "MotionBlur",
+            "description": "Enable/disable motion blur"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "MusicVolume",
+            "description": "Adjust music volume"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "M1CarbineOffset",
+            "description": "M1 Carbine specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "M1GarandOffset",
+            "description": "M1 Garand specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "M1911Offset",
+            "description": "M1911 specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "PanningMode",
+            "description": "Audio panning mode, defaulted to headphones"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "PPQuality",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "PlayerChatMicVolume",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "PlayerRecieveVolume",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "PlayerShoutVolume",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "Resolution",
+            "description": "Change video resolution"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ResolutionQuality",
+            "description": "Adjust resolution quality"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "STG44Offset",
+            "description": "STG44 specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "Sprintzoom",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "SpringfieldOffset",
+            "description": "Springfield specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "SoundWhenBackgrounded",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "SniperScopeType",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "SkylightShadows",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "SkipKillCam",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowVault",
+            "description": "Enable/disable vault indicator"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowTips",
+            "description": "Enable/disable tips"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowStats",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowScoreAward",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowScreenEffects",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowPickup",
+            "description": "Enable/disable pickup indicator"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowMinimap",
+            "description": "Enable/disable minimap"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowMarkers",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowKillInfoPanel",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowKillFeed",
+            "description": "Enable/disable the killfeed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowInventory",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowInteraction",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowGrenadeIcon",
+            "description": "Enable/disable grenade indicator"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowGameTimer",
+            "description": "Enable/disable gametimer"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowGameStatus",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowFps",
+            "description": "Enable/disable to show the fps"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowDistanceOnMaker",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowCrosshair",
+            "description": "Enable/disable crosshair"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowClock",
+            "description": "Enable/disable to show the clock"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowChat",
+            "description": "Enable/disable to show the chat"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowBombGameOverviewAvatars",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowBombGameOverview",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowArcadeScores",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShotgunOffset",
+            "description": "Shotgun specific offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShadowQuality",
+            "description": "Adjust the quality of the shadows"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShadowColourGradingGamma",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ScopedKar98Offset",
+            "description": "Scoped Kar98 specific offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "VoiceVolume",
+            "description": "Adjust the VOIP voice volume"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "TargetDisplay",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "TextureQuality",
+            "description": "Adjust texture quality"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "TextureStreamingEnabled",
+            "description": "Enable/disable texture streaming"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "TeamVoiceChat",
+            "description": "Decription needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ThompsonOffset",
+            "description": "Thompson specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "UIVolume",
+            "description": "Adjust UI volume i.e. menu sounds"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "UseGlobalWeaponOffset",
+            "description": "Enable/disable global weapon offsets"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "Version",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ViewDistanceQuality",
+            "description": "Adjust view distance quality"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "Vignette",
+            "description": "Enable/disable vignette"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "Vsync",
+            "description": "Enable/disable vsync"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "VoiceChatMode",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "WorldMasterColourGradingContrast",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "WorldMasterColourGradingGamma",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "WorldMasterColourGradingSaturation",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "WorldContrastToneBlue",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "WorldContrastToneGreen",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "WorldContrastToneRed",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.",
+            "command": "AddBot",
+            "description": "Add bot(s) to the server",
+            "examples": [
+                "addBot 1 // Adds 1 bot",
+                "addBot 10 // Adds 10 bots"
+            ]
+        },
+        {
+            "prefix": "Server.",
+            "command": "Announce",
+            "description": "Echo a message to the server",
+            "examples": [
+                "announce Hello"
+            ]
+        },
+        {
+            "prefix": "Server.",
+            "command": "ChangeMap",
+            "description": "Change map & mode",
+            "examples": [
+                "ChangeMap AimMap_01 BOMB",
+                "ChangeMap AimMap_01 CTF",
+                "ChangeMap AimMap_01 DOM",
+                "ChangeMap AimMap_01 TDM",
+                "ChangeMap Battery BOMB",
+                "ChangeMap Battery CTF",
+                "ChangeMap Battery DOM",
+                "ChangeMap Battery TDM",
+                "ChangeMap Coastal BOMB",
+                "ChangeMap Coastal DOM",
+                "ChangeMap Coastal CTF",
+                "ChangeMap Coastal TDM",
+                "ChangeMap Derailed BOMB",
+                "ChangeMap Derailed CTF",
+                "ChangeMap Derailed DOM",
+                "ChangeMap Derailed TDM",
+                "ChangeMap Liberation BOMB",
+                "ChangeMap Liberation DOM",
+                "ChangeMap Liberation CTF",
+                "ChangeMap Liberation TDM",
+                "ChangeMap Manorhouse_V1 BOMB",
+                "ChangeMap Manorhouse_V1 CTF",
+                "ChangeMap Manorhouse_V1 DOM",
+                "ChangeMap Manorhouse_V1 TDM",
+                "ChangeMap Manorhouse_V2 BOMB",
+                "ChangeMap Manorhouse_V2 CTF",
+                "ChangeMap Manorhouse_V2 DOM",
+                "ChangeMap Manorhouse_V2 TDM",
+                "ChangeMap Outpost BOMB",
+                "ChangeMap Outpost CTF",
+                "ChangeMap Outpost DOM",
+                "ChangeMap Outpost TDM"
+            ]
+        },
+        {
+            "prefix": "Server.",
+            "command": "ChangeToTeam",
+            "description": "Change your team",
+            "examples": [
+                "changeTeam 0",
+                "changeTeam 1"
+            ]
+        },
+        {
+            "prefix": "Server.",
+            "command": "Config",
+            "description": "Change server config values",
+            "examples": [
+                "config.somevalue 13"
+            ]
+        },
+        {
+            "prefix": "Server.",
+            "command": "DisconnectAll",
+            "description": "Disconnect everyone from the server"
+        },
+        {
+            "prefix": "Server.",
+            "command": "EndRound",
+            "description": "Ends the current round"
+        },
+        {
+            "prefix": "Server.",
+            "command": "GiveAmmo",
+            "description": "Give youself ammo",
+            "examples": [
+                "giveAmmo 90"
+            ]
+        },
+        {
+            "prefix": "Server.",
+            "command": "GiveGrenade",
+            "description": "Give youself grenade(s)",
+            "examples": [
+                "giveGrenade 1",
+                "giveGrenade 23"
+            ]
+        },
+        {
+            "prefix": "Server.",
+            "command": "GiveSmokeGrenade",
+            "description": "Give youself smoke grenade(s)",
+            "examples": [
+                "giveSmokeGrenade 1",
+                "giveSmokeGrenade 23"
+            ]
+        },
+        {
+            "prefix": "Server.",
+            "command": "GiveWeapon",
+            "description": "Give yourself a specific weapon",
+            "examples": [
+                "GiveWeapon Gewehr_43 1",
+                "GiveWeapon Kar_98k 1",
+                "GiveWeapon Kar_98k_Scoped",
+                "GiveWeapon Luger 1",
+                "GiveWeapon M1_Carbine 1",
+                "GiveWeapon M1_Garand 1",
+                "GiveWeapon M1911 1",
+                "GiveWeapon M1918_BAR 1",
+                "GiveWeapon MP40 1",
+                "GiveWeapon Springfield_Scoped 1",
+                "GiveWeapon STG44 1",
+                "GiveWeapon Thompson 1",
+                "GiveWeapon Winchester_1897 1"
+            ]
+        },
+        {
+            "prefix": "Server.",
+            "command": "Invulnerable",
+            "description": "Make yourself invulnerable",
+            "examples": [
+                "Invulnerable // Toggles invulnerability on/off"
+            ]
+        },
+        {
+            "prefix": "Server.",
+            "command": "KickByPlayerName",
+            "description": "Kick player by name",
+            "examples": [
+                "kickByPlayerName toxicplayer"
+            ]
+        },
+        {
+            "prefix": "Server.",
+            "command": "KickPlayerBySteamID",
+            "description": "Kick player by Steam ID",
+            "examples": [
+                "kickBySteamID STEAM_X:X:XXXXX"
+            ]
+        },
+        {
+            "prefix": "Server.",
+            "command": "KillBots",
+            "description": "Kill alive bot(s)"
+        },
+        {
+            "prefix": "Server.",
+            "command": "ListPartyMembers",
+            "description": "Lists all party members"
+        },
+        {
+            "prefix": "Server.",
+            "command": "LoadNextGame",
+            "description": "Load next map/mode in roation"
+        },
+        {
+            "prefix": "Server.",
+            "command": "LoseRound",
+            "description": "Force lose current round"
+        },
+        {
+            "prefix": "Server.",
+            "command": "Pause",
+            "description": "Pause/unpause the game",
+            "examples": [
+                "Pause // Toggles pause on/off"
+            ]
+        },
+        {
+            "prefix": "Server.",
+            "command": "Restart",
+            "description": "Restarts the server"
+        },
+        {
+            "prefix": "Server.",
+            "command": "Shutdown",
+            "description": "Shuts the server down"
+        },
+        {
+            "prefix": "Server.",
+            "command": "State",
+            "description": "Change gamestate",
+            "examples": [
+                "state CountdownToStart",
+                "state PostMatch",
+                "state PostRound",
+                "state SetupRound",
+                "state WaitingToStart"
+            ]
+        },
+        {
+            "prefix": "Server.",
+            "command": "WinRound",
+            "description": "Force win current round"
+        },
+        {
+            "prefix": "Server.",
+            "command": "WwiseHeadPhoneMode",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.",
+            "command": "WwiseSpeakerMode",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "AdminAnnouncementDuration",
+            "description": "How long an announcement should be shown",
+            "examples": [
+                "AdminAnnouncementDuration 10 // 10 seconds"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "AdminSteamIDs",
+            "description": "Which SteamID64 should be administrators"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "AllowClientBots",
+            "description": "Description needed",
+            "examples": [
+                "AllowClientBots True",
+                "AllowClientBots False"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "AllowPlayerInvulnerable",
+            "description": "Description needed",
+            "examples": [
+                "AllowPlayerInvulnerable True",
+                "AllowPlayerInvulnerable False"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "AllySpawnInfluenceDistance",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "AllySpawnInfluencedescriptionontent",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "AllySpawnInfluenceValue",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "AttackingNation",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "AttackObjectiveScore",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "AvailableMaps",
+            "description": "Maps available in the current pool"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "AvailableModes",
+            "description": "Modes available in the current pool"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "bAllowGlobalVoiceChat",
+            "description": "Enable/disable global voice chat",
+            "examples": [
+                "bAllowGlobalVoiceChat True",
+                "bAllowGlobalVoiceChat False"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "bCheatAdmincommandsEnabled",
+            "description": "Enable/disable cheat commands",
+            "examples": [
+                "bCheatAdmincommandsEnabled True",
+                "bCheatAdmincommandsEnabled False"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "CharacterDestroyTime",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "CountdownToStartTime",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "DeathScore",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "DebugStateChanges",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "DeckName",
+            "description": "Which deck of cards to use",
+            "examples": [
+                "DeckName BOMBDeck0 // Your deckname may vary"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "DedServerMaxTickRate",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "DefendObjectiveScore",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "DefuseEndsRound",
+            "description": "Description needed",
+            "examples": [
+                "DefuseEndsRound True",
+                "DefuseEndsRound False"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "DefuseTime",
+            "description": "How long it takes to defuse the bomb",
+            "examples": [
+                "DefuseTime 7.5 // Default in seconds"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "DisableWeaponDrop",
+            "description": "Description needed",
+            "examples": [
+                "DisableWeaponDrop True",
+                "DisableWeaponDrop False"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "DistanceToPickupBomb",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "DistanceToPlant",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "EndOnMatchPointWin",
+            "description": "Description needed",
+            "examples": [
+                "EndOnMatchPointWin True",
+                "EndOnMatchPointWin False"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "EnemySpawnInfluenceDistance",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "EnemySpawnInfluencedescriptiononent",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "EnemySpawnWeakForceInfluenceDistance",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "EnemySpawnWeakForceInfluencedescriptiononent",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "EnemySpawnWeakForceInfluenceValue",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "FadeToBlackTime",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "ForceFreeCamOnSpectatorStart",
+            "description": "Description needed",
+            "examples": [
+                "ForceFreeCamOnSpectatorStart True",
+                "ForceFreeCamOnSpectatorStart False"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "FriendlyBulletDamageScale",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "FriendlyFire",
+            "description": "Description needed",
+            "examples": [
+                "FriendlyFire True",
+                "FriendlyFire False"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "FriendlyGrenadeDamageScale",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "FuseTime",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "GameDrawScore",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "GameLossScore",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "GrenadeLinesAllowed",
+            "description": "Description needed",
+            "examples": [
+                "GrenadeLinesAllowed True",
+                "GrenadeLinesAllowed False"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "HardRestartAfterMatch",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "IdleCasualServerTime",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "InactivePlayerStateLifeSpan",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "InitialReserveSlotTime",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "InterpStep",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "IsMatchMakingMode",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "LockedToFirstPerson",
+            "description": "Description needed",
+            "examples": [
+                "LockedToFirstPerson True",
+                "LockedToFirstPerson False"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "MapRotation",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "MaxGunsOnRound",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "MaxPlayersPerTeam",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "ModeRotation",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "NumBots",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "NumNations",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "NumRounds",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "NumTeams",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "OutlineAllowed",
+            "description": "Description needed",
+            "examples": [
+                "OutlineAllowed True",
+                "OutlineAllowed False"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "Password",
+            "description": "Set a server password (case sensitive)",
+            "examples": [
+                "Password Foo",
+                "Password baR",
+                "Password foobar"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "PlantTime",
+            "description": "How long it takes to plant the bomb (seconds)",
+            "examples": [
+                "PlantTime 5 // Default"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "PlayerAssistScore",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "PlayerKillScore",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "PlayMode",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "PostJoinReserveSlotTime",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "PostMatchTime",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "PostRoundPauseTime",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "PostRoundTime",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "PreviousSpawnAreaDistance",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "PreviousSpawnAreaInfluence",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "PreviousSpawnAreaInfluencedescriptiononent",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "PreviousSpawnInfluence",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "RandomMapROtationEnabled",
+            "description": "Description needed",
+            "examples": [
+                "RandomMapROtationEnabled True",
+                "RandomMapROtationEnabled False"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "RandomSpawnInfluence",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "RecordReplays",
+            "description": "Description needed",
+            "examples": [
+                "RecordReplays True",
+                "RecordReplays False"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "ReportReasons",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "RequiredPlayers",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "RespawnDelay",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "RoundDrawScore",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "RoundLossScore",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "RoundTime",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "RoundWinScore",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "ScoreToWinRound",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "SelfGrenadeDamageScale",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "SelfOtherDamageScale",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "SendSafeString",
+            "description": "Description needed",
+            "examples": [
+                "SendSafeString True",
+                "SendSafeString False"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "ServerName",
+            "description": "Name of the server",
+            "examples": [
+                "ServerName Awesomesauce // Restart might be required"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "SetupRoundTime",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "ShouldTryBalanceTeamsOnJoin",
+            "description": "Description needed",
+            "examples": [
+                "ShouldTryBalanceTeamsOnJoin True",
+                "ShouldTryBalanceTeamsOnJoin False"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "SpectatorTeamEnabled",
+            "description": "Description needed",
+            "examples": [
+                "SpectatorTeamEnabled True",
+                "SpectatorTeamEnabled False"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "SpectatorTransferTime",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "SpinRoundBomb",
+            "description": "Description needed",
+            "examples": [
+                "SpinRoundBomb True",
+                "SpinRoundBomb False"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "StartType",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "StratTime",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "SwapSidesRound",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "TeamAssistScore",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "TeamDeathAreaDistance",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "TeamDeathAreaInfluence",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "TeamDeathAreaInfluencedescriptiononent",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "TeamDeathAreaTimeOfRelevance",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "TeamDeathLastSpawnAreaDistance",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "TeamDeathLastSpawnAreaInfluence",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "TeamDeathLastSpawnAreaInfluencedescriptiononent",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "TeamDeathLastSpawnAreaTimeOfRelevance",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "TeamKillScore",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "TeamNames",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "TimeUntilTravel",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "VoteTime",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "WaitingToStartTimer",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "WarmupRespawnTime",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "WinOnTeamEmpty",
+            "description": "Description needed",
+            "examples": [
+                "WinOnTeamEmpty True",
+                "WinOnTeamEmpty False"
             ]
         }
     ]
