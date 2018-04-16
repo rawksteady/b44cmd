@@ -74,7 +74,6 @@
                 title.innerHTML = cmd.prefix + cmd.command;
                 item.appendChild(title);
 
-
                 let description = document.createElement('p');
                 description.classList.add('cmd__description');
                 description.innerHTML = cmd.description;
@@ -87,7 +86,7 @@
 
                     cmd.examples.forEach((example) => {
                         let sample = document.createElement('kbd');
-                        sample.innerHTML = example;
+                        sample.innerHTML = cmd.prefix + cmd.command + '.' + example;
 
                         samples.appendChild(sample);
                     });
