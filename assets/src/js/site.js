@@ -86,7 +86,7 @@
 
                     cmd.examples.forEach((example) => {
                         let sample = document.createElement('kbd');
-                        sample.innerHTML = cmd.prefix + cmd.command + '.' + example;
+                        sample.innerHTML = cmd.prefix + example;
 
                         samples.appendChild(sample);
                     });
