@@ -22,14 +22,13 @@
 
         searchInput.addEventListener('keyup', (e) => {
 
-            let inputValue = e.target.value;
-            let longEnough = inputValue.length;
+            let inputValue = e.target.value.toLowerCase();
             let cmds = Array.from(document.getElementsByClassName('cmd'));
 
             cmds.forEach((cmd) => {
 
                 let filter = cmd.getAttribute('data-filter').toLowerCase();
-                let isMatching = filter.toLowerCase().indexOf(inputValue.toLowerCase()) > -1;
+                let isMatching = filter.indexOf(inputValue) > -1;
 
                 if (isMatching) {
                     cmd.classList.remove('not-matching');
