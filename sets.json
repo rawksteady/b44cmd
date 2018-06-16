@@ -1,5 +1,5 @@
 {
-    "updated": "2018-03-15",
+    "updated": "2018-06-16",
     "commands": [
         {
             "prefix": "Cmd.",
@@ -8,13 +8,59 @@
         },
         {
             "prefix": "Settings.",
+            "command": "AAQuality",
+            "description": "Adjust anti-aliasing quality"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "AmbientVolume",
+            "description": "Sets the volume of ambient noises",
+            "examples": [
+                "AmbientVolume 10 // Max",
+                "AmbientVolume 0 // Min"
+            ]
+        },
+        {
+            "prefix": "Settings.",
+            "command": "Antialiasing",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "AOStrength",
+            "description": "Ambient occlusion strength",
+            "examples": [
+                "AOStrength 10 // Max",
+                "AOStrength 0 // Min"
+            ]
+        },
+        {
+            "prefix": "Settings.",
             "command": "AspectRatio",
             "description": "Adjust aspect ratio"
         },
         {
             "prefix": "Settings.",
-            "command": "AAQuality",
-            "description": "Adjust anti-aliasing quality"
+            "command": "Atmospherics",
+            "description": "Environmental tweaks: Atmospherics",
+            "examples": [
+                "Atmospherics True",
+                "Atmospherics False"
+            ]
+        },
+        {
+            "prefix": "Settings.",
+            "command": "AutoSubscribeOnDownload",
+            "description": "Description needed",
+            "examples": [
+                "AutoSubscribeOnDownload True",
+                "AutoSubscribeOnDownload False"
+            ]
+        },
+        {
+            "prefix": "Settings.",
+            "command": "Baikal21Offset",
+            "description": "Baikal 21 specific weapon offset"
         },
         {
             "prefix": "Settings.",
@@ -23,55 +69,20 @@
         },
         {
             "prefix": "Settings.",
+            "command": "Bloom",
+            "description": "Enable/Disable bloom effects",
+            "examples": [
+                "Bloom True",
+                "Bloom False"
+            ]
+        },
+        {
+            "prefix": "Settings.",
             "command": "Brightness",
             "description": "Adjust brightness",
             "examples": [
                 "Brightness 1.2 // CURRENTLY DISABLED"
             ]
-        },
-        {
-            "prefix": "Settings.",
-            "command": "CardPickupScale",
-            "description": "Size of the dropped cards",
-            "examples": [
-                "CardPickupScale 1",
-                "CardPickupScale 0.5"
-            ]
-        },
-        {
-            "prefix": "Settings.",
-            "command": "ControllerVibration",
-            "description": "Adjust vibration of controller"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "ControllerVerticalSensitivity",
-            "description": "Adjust vertical sensitivity of controller"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "ControllerSwapSticks",
-            "description": "Description needed"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "ControllerInvertVertical",
-            "description": "Invert vertical controller controls"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "ControllerInvertHorizontal",
-            "description": "Invert horizontal controller controls"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "ControllerAimTechnique",
-            "description": "Description needed"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "Contrast",
-            "description": "Adjust contrast"
         },
         {
             "prefix": "Settings.",
@@ -85,6 +96,73 @@
         },
         {
             "prefix": "Settings.",
+            "command": "ColorStrength",
+            "description": "Environmental tweaks: Color strength",
+            "examples": [
+                "ColorStrength 10 // Max",
+                "ColorStrength 0 // Min"
+            ]
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ColorTint",
+            "description": "Environmental tweaks: Color tint",
+            "examples": [
+                "ColorTint 10 // Max",
+                "ColorTint 0 // Min"
+            ]
+        },
+        {
+            "prefix": "Settings.",
+            "command": "CoinPickupScale",
+            "description": "Size of dropped coins/tokens",
+            "examples": [
+                "CoinPickupScale 1",
+                "CoinPickupScale 0.5 // Half default size"
+            ]
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ControllerAimTechnique",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ControllerHorizontalSensitivity",
+            "description": "Adjust horizontal sensitivity of controller"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ControllerInvertHorizontal",
+            "description": "Invert horizontal controller controls"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ControllerInvertVertical",
+            "description": "Invert vertical controller controls"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ControllerSwapSticks",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ControllerVibration",
+            "description": "Adjust vibration of controller"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ControllerVerticalSensitivity",
+            "description": "Adjust vertical sensitivity of controller"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "Contrast",
+            "description": "Adjust contrast"
+        },
+        {
+            "prefix": "Settings.",
             "command": "DisplayMode",
             "description": "Description needed"
         },
@@ -92,6 +170,15 @@
             "prefix": "Settings.",
             "command": "DecorativeTrees",
             "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "DetailOcclusion",
+            "description": "Ambient occlusion details",
+            "examples": [
+                "DetailOcclusion True",
+                "DetailOcclusion False"
+            ]
         },
         {
             "prefix": "Settings.",
@@ -105,23 +192,64 @@
         },
         {
             "prefix": "Settings.",
-            "command": "EnableVoiceChat",
-            "description": "Enable/disable voice chat"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "EffectsQuality",
-            "description": "Effects quality i.e. descriptionlosions"
-        },
-        {
-            "prefix": "Settings.",
             "command": "EffectsVolume",
             "description": "Effects volume"
         },
         {
             "prefix": "Settings.",
+            "command": "EffectsQuality",
+            "description": "Effects quality i.e. explosions"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "EnableVoiceChat",
+            "description": "Enable/disable voice chat",
+            "examples": [
+                "EnableVoiceChat True",
+                "EnableVoiceChat False"
+            ]
+        },
+        {
+            "prefix": "Settings.",
             "command": "EnableDevConsole",
-            "description": "Enable/disable the developer console"
+            "description": "Enable/disable the developer console",
+            "examples": [
+                "EnableDevConsole True",
+                "EnableDevConsole False"
+            ]
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ExposureAmount",
+            "description": "Camera effects: Exposure amount",
+            "examples": [
+                "ExposureAmount 10 // Max",
+                "ExposureAmount 0 // Min"
+            ]
+        },
+        {
+            "prefix": "Settings.",
+            "command": "FedorovAvtomatOffset",
+            "description": "Fedorov Avtomat specific offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "FixedWeaponViewModel",
+            "description": "Controls viewmodel size/position"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "FixMapRotation",
+            "description": "Enable/disable minimap rotation",
+            "examples": [
+                "FixMapRotation 10 // Max",
+                "FixMapRotation 0 // Min"
+            ]
+        },
+        {
+            "prefix": "Settings.",
+            "command": "FoliageQuality",
+            "description": "Adjust the quality of the foliage"
         },
         {
             "prefix": "Settings.",
@@ -133,26 +261,11 @@
         },
         {
             "prefix": "Settings.",
-            "command": "FoliageQuality",
-            "description": "Adjust the quality of the foliage"
-        },
-        {
-            "prefix": "Settings.",
             "command": "Fps",
             "description": "Set max FPS",
             "examples": [
                 "Fps 200"
             ]
-        },
-        {
-            "prefix": "Settings.",
-            "command": "FixedWeaponViewModel",
-            "description": "Controls viewmodel size/position"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "FixMapRotation",
-            "description": "Enable/disable minimap rotation"
         },
         {
             "prefix": "Settings.",
@@ -171,13 +284,22 @@
         },
         {
             "prefix": "Settings.",
+            "command": "GreaseGunOffset",
+            "description": "Grease Gun specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
             "command": "GraphicsQuality",
             "description": "Adjust grahics quality"
         },
         {
             "prefix": "Settings.",
             "command": "HeadBob",
-            "description": "Enable/disable headbob"
+            "description": "Enable/disable headbob",
+            "examples": [
+                "HeadBob True",
+                "HeadBob False"
+            ]
         },
         {
             "prefix": "Settings.",
@@ -191,8 +313,39 @@
         },
         {
             "prefix": "Settings.",
+            "command": "LandscapeShadows",
+            "description": "Environmental tweaks: Landscape shadows",
+            "examples": [
+                "LandscapeShadows True",
+                "LandscapeShadows False"
+            ]
+        },
+        {
+            "prefix": "Settings.",
             "command": "LeftHandedWeaponViewModel",
-            "description": "Change the WeaponWiewModel to the left side"
+            "description": "Change the WeaponWiewModel to the left side",
+            "examples": [
+                "LeftHandedWeaponViewModel True",
+                "LeftHandedWeaponViewModel False"
+            ]
+        },
+        {
+            "prefix": "Settings.",
+            "command": "LensFlare",
+            "description": "Camera effects: Lens flare",
+            "examples": [
+                "LensFlare True",
+                "LensFlare False"
+            ]
+        },
+        {
+            "prefix": "Settings.",
+            "command": "Lensflare",
+            "description": "Camera effects: Lens flare",
+            "examples": [
+                "LensFlareIntensity 10 // Max",
+                "LensFlareIntensity 0 // Min"
+            ]
         },
         {
             "prefix": "Settings.",
@@ -201,18 +354,64 @@
         },
         {
             "prefix": "Settings.",
-            "command": "MP40Offset",
-            "description": "MP40 specific weapon offset"
+            "command": "M1911Offset",
+            "description": "M1911 specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "M1CarbineOffset",
+            "description": "M1 Carbine specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "M1GarandOffset",
+            "description": "M1 Garand specific weapon offset"
         },
         {
             "prefix": "Settings.",
             "command": "MasterVolume",
-            "description": "Adjust master volume (everything)"
+            "description": "Adjust master volume (everything)",
+            "examples": [
+                "MasterVolume 10 // Max",
+                "MasterVolume 0 // Min"
+            ]
         },
         {
             "prefix": "Settings.",
-            "command": "MouseADSSensitivity",
-            "description": "Adjust Aim Down Sight sensitivity"
+            "command": "MatchmakingRegion",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "MicVolume",
+            "description": "Microphone volume level",
+            "examples": [
+                "MicVolume 10 // Max",
+                "MicVolume 0 // Min"
+            ]
+        },
+        {
+            "prefix": "Settings.",
+            "command": "MiniMapZoomAmount",
+            "description": "Set minimap zoom level",
+            "examples": [
+                "MiniMapZoomAmount 1 // Max",
+                "MiniMapZoomAmount 0 // Min"
+            ]
+        },
+        {
+            "prefix": "Settings.",
+            "command": "MosinNagantOffset",
+            "description": "Mosin Nagant specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "MotionBlur",
+            "description": "Enable/disable motion blur",
+            "examples": [
+                "MotionBlur True",
+                "MotionBlur False"
+            ]
         },
         {
             "prefix": "Settings.",
@@ -223,6 +422,11 @@
             "prefix": "Settings.",
             "command": "MouseAccelerationAmount",
             "description": "Amount of mouse acceleration"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "MouseADSSensitivity",
+            "description": "Adjust Aim Down Sight sensitivity"
         },
         {
             "prefix": "Settings.",
@@ -244,38 +448,44 @@
         },
         {
             "prefix": "Settings.",
-            "command": "MotionBlur",
-            "description": "Enable/disable motion blur"
+            "command": "MouseSeperateScopedSensitivity",
+            "description": "Adjust mouse sensitivity (scoped weapons)",
+            "examples": [
+                "MouseSeperateScopedSensitivity 5 // Adjust number to your liking"
+            ]
         },
         {
             "prefix": "Settings.",
-            "command": "MusicVolume",
-            "description": "Adjust music volume"
+            "command": "MouseSeperateScopedSensitivityEnabled",
+            "description": "Enable scoped weapons specifit sensitivity",
+            "examples": [
+                "MouseSeperateScopedSensitivityEnabled True",
+                "MouseSeperateScopedSensitivityEnabled False"
+            ]
         },
         {
             "prefix": "Settings.",
-            "command": "M1CarbineOffset",
-            "description": "M1 Carbine specific weapon offset"
+            "command": "MP28Offset",
+            "description": "MP28 specific weapon offset"
         },
         {
             "prefix": "Settings.",
-            "command": "M1GarandOffset",
-            "description": "M1 Garand specific weapon offset"
+            "command": "MP40Offset",
+            "description": "MP40 specific weapon offset"
         },
         {
             "prefix": "Settings.",
-            "command": "M1911Offset",
-            "description": "M1911 specific weapon offset"
+            "command": "MusicVolumeGame",
+            "description": "Adjust game music volume",
+            "examples": [
+                "MusicVolumeGame 10 // Max",
+                "MusicVolumeGame 0 // Min"
+            ]
         },
         {
             "prefix": "Settings.",
             "command": "PanningMode",
             "description": "Audio panning mode, defaulted to headphones"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "PPQuality",
-            "description": "Description needed"
         },
         {
             "prefix": "Settings.",
@@ -294,6 +504,21 @@
         },
         {
             "prefix": "Settings.",
+            "command": "PPQuality",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "PPSH43Offset",
+            "description": "PPSH43 specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "PPSH41Offset",
+            "description": "PPSH41 specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
             "command": "Resolution",
             "description": "Change video resolution"
         },
@@ -304,53 +529,128 @@
         },
         {
             "prefix": "Settings.",
-            "command": "STG44Offset",
-            "description": "STG44 specific weapon offset"
+            "command": "ScopedKar98Offset",
+            "description": "Scoped Kar98 specific offset"
         },
         {
             "prefix": "Settings.",
-            "command": "Sprintzoom",
+            "command": "ScopedMosinNagantOffset",
+            "description": "Scoped Nagant specific offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShadowQuality",
+            "description": "Adjust the quality of the shadows"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShotgunOffset",
+            "description": "Shotgun specific offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowArcadeScores",
             "description": "Description needed"
         },
         {
             "prefix": "Settings.",
-            "command": "SpringfieldOffset",
-            "description": "Springfield specific weapon offset"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "SoundWhenBackgrounded",
+            "command": "ShowBombGameOverview",
             "description": "Description needed"
         },
         {
             "prefix": "Settings.",
-            "command": "SniperScopeType",
+            "command": "ShowBombGameOverviewAvatars",
             "description": "Description needed"
         },
         {
             "prefix": "Settings.",
-            "command": "SkylightShadows",
+            "command": "ShowChat",
+            "description": "Enable/disable to show the chat"
+        },
+{
+            "prefix": "Settings.",
+            "command": "ShowClock",
+            "description": "Enable/disable to show the clock"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowCrosshair",
+            "description": "Enable/disable crosshair"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowDistanceOnMaker",
             "description": "Description needed"
         },
         {
             "prefix": "Settings.",
-            "command": "SkipKillCam",
+            "command": "ShowFps",
+            "description": "Enable/disable to show the fps"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowGameStatus",
             "description": "Description needed"
         },
         {
             "prefix": "Settings.",
-            "command": "ShowVault",
-            "description": "Enable/disable vault indicator"
+            "command": "ShowGameTimer",
+            "description": "Enable/disable gametimer"
         },
         {
             "prefix": "Settings.",
-            "command": "ShowTips",
-            "description": "Enable/disable tips"
+            "command": "ShowGrenadeIcon",
+            "description": "Enable/disable grenade indicator"
         },
         {
             "prefix": "Settings.",
-            "command": "ShowStats",
+            "command": "ShowHUD",
             "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowInteraction",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowInventory",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowInventoryWeapons",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowKillFeed",
+            "description": "Enable/disable the killfeed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowKillInfoPanel",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowMarkers",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowMinimap",
+            "description": "Enable/disable minimap"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowNetworkStatusIcons",
+            "description": "Enable/disable minimap"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowPickup",
+            "description": "Enable/disable pickup indicator"
         },
         {
             "prefix": "Settings.",
@@ -364,113 +664,101 @@
         },
         {
             "prefix": "Settings.",
-            "command": "ShowPickup",
-            "description": "Enable/disable pickup indicator"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "ShowMinimap",
-            "description": "Enable/disable minimap"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "ShowMarkers",
+            "command": "ShowSpectatorHud",
             "description": "Description needed"
         },
         {
             "prefix": "Settings.",
-            "command": "ShowKillInfoPanel",
+            "command": "ShowStats",
             "description": "Description needed"
         },
         {
             "prefix": "Settings.",
-            "command": "ShowKillFeed",
-            "description": "Enable/disable the killfeed"
+            "command": "ShowTips",
+            "description": "Enable/disable tips"
         },
         {
             "prefix": "Settings.",
-            "command": "ShowInventory",
+            "command": "ShowVault",
+            "description": "Enable/disable vault indicator"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "ShowWartideTokenCount",
+            "description": "Enable/disable vault indicator"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "SkipKillCam",
             "description": "Description needed"
         },
         {
             "prefix": "Settings.",
-            "command": "ShowInteraction",
+            "command": "SkyFade",
+            "description": "Filmic tweaks: Sky fade",
+            "examples": [
+                "SkyFade 10 // Max",
+                "SkyFade 0 // Min"
+            ]
+        },
+        {
+            "prefix": "Settings.",
+            "command": "SniperScopeType",
             "description": "Description needed"
         },
         {
             "prefix": "Settings.",
-            "command": "ShowGrenadeIcon",
-            "description": "Enable/disable grenade indicator"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "ShowGameTimer",
-            "description": "Enable/disable gametimer"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "ShowGameStatus",
+            "command": "SoundWhenBackgrounded",
             "description": "Description needed"
         },
         {
             "prefix": "Settings.",
-            "command": "ShowFps",
-            "description": "Enable/disable to show the fps"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "ShowDistanceOnMaker",
+            "command": "SpectatorAcceleration",
             "description": "Description needed"
         },
         {
             "prefix": "Settings.",
-            "command": "ShowCrosshair",
-            "description": "Enable/disable crosshair"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "ShowClock",
-            "description": "Enable/disable to show the clock"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "ShowChat",
-            "description": "Enable/disable to show the chat"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "ShowBombGameOverviewAvatars",
+            "command": "SpectatorDeceleration",
             "description": "Description needed"
         },
         {
             "prefix": "Settings.",
-            "command": "ShowBombGameOverview",
+            "command": "SpectatorFreeCamRotInterpSpeed",
             "description": "Description needed"
         },
         {
             "prefix": "Settings.",
-            "command": "ShowArcadeScores",
+            "command": "SpectatorMaxSpeed",
             "description": "Description needed"
         },
         {
             "prefix": "Settings.",
-            "command": "ShotgunOffset",
-            "description": "Shotgun specific offset"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "ShadowQuality",
-            "description": "Adjust the quality of the shadows"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "ShadowColourGradingGamma",
+            "command": "Sprintzoom",
             "description": "Description needed"
         },
         {
             "prefix": "Settings.",
-            "command": "ScopedKar98Offset",
-            "description": "Scoped Kar98 specific offset"
+            "command": "SpringfieldOffset",
+            "description": "Springfield specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "StaticAO",
+            "description": "Ambient occlusion: Static AO",
+            "examples": [
+                "StatiCAO True",
+                "StaticAO False"
+            ]
+        },
+        {
+            "prefix": "Settings.",
+            "command": "STG44Offset",
+            "description": "STG44 specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "SVT40Offset",
+            "description": "SVT40 specific weapon offset"
         },
         {
             "prefix": "Settings.",
@@ -484,18 +772,22 @@
         },
         {
             "prefix": "Settings.",
+            "command": "TeamVoiceChat",
+            "description": "Decription needed"
+        },
+        {
+            "prefix": "Settings.",
             "command": "TextureQuality",
             "description": "Adjust texture quality"
         },
         {
             "prefix": "Settings.",
             "command": "TextureStreamingEnabled",
-            "description": "Enable/disable texture streaming"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "TeamVoiceChat",
-            "description": "Decription needed"
+            "description": "Enable/disable texture streaming",
+            "examples": [
+                "TextureStreamingEnabled True",
+                "TextureStreamingEnabled False"
+            ]
         },
         {
             "prefix": "Settings.",
@@ -504,8 +796,17 @@
         },
         {
             "prefix": "Settings.",
-            "command": "UIVolume",
-            "description": "Adjust UI volume i.e. menu sounds"
+            "command": "TT33Offset",
+            "description": "TT33 specific weapon offset"
+        },
+        {
+            "prefix": "Settings.",
+            "command": "UseForwardRenderer",
+            "description": "Enable/disable the old forward renderer",
+            "examples": [
+                "UseForwardRenderer True",
+                "UseForwardRenderer False"
+            ]
         },
         {
             "prefix": "Settings.",
@@ -519,18 +820,12 @@
         },
         {
             "prefix": "Settings.",
-            "command": "ViewDistanceQuality",
-            "description": "Adjust view distance quality"
-        },
-        {
-            "prefix": "Settings.",
             "command": "Vignette",
-            "description": "Enable/disable vignette"
-        },
-        {
-            "prefix": "Settings.",
-            "command": "Vsync",
-            "description": "Enable/disable vsync"
+            "description": "Image effects: Vignette",
+            "examples": [
+                "Vignette 10 // Max",
+                "Vignette 0 // Min"
+            ]
         },
         {
             "prefix": "Settings.",
@@ -539,32 +834,36 @@
         },
         {
             "prefix": "Settings.",
-            "command": "WorldMasterColourGradingContrast",
+            "command": "VoiceInputDevice",
             "description": "Description needed"
         },
         {
             "prefix": "Settings.",
-            "command": "WorldMasterColourGradingGamma",
+            "command": "VoiceOutputDevice",
             "description": "Description needed"
         },
         {
             "prefix": "Settings.",
-            "command": "WorldMasterColourGradingSaturation",
+            "command": "VoiceVolume",
             "description": "Description needed"
         },
         {
             "prefix": "Settings.",
-            "command": "WorldContrastToneBlue",
-            "description": "Description needed"
+            "command": "Vsync",
+            "description": "Enable/disable vsync"
         },
         {
             "prefix": "Settings.",
-            "command": "WorldContrastToneGreen",
-            "description": "Description needed"
+            "command": "WorldContrast",
+            "description": "Filmic tweaks: World contrast",
+            "examples": [
+                "WorldContrast 10 // Max",
+                "WorldContrast 0 // Min"
+            ]
         },
         {
-            "prefix": "Settings.",
-            "command": "WorldContrastToneRed",
+            "prefix": "Server.",
+            "command": "AddAdminId",
             "description": "Description needed"
         },
         {
@@ -578,49 +877,55 @@
         },
         {
             "prefix": "Server.",
-            "command": "Announce",
-            "description": "Echo a message to the server",
-            "examples": [
-                "announce Hello"
-            ]
-        },
-        {
-            "prefix": "Server.",
             "command": "ChangeMap",
             "description": "Change map & mode",
             "examples": [
-                "ChangeMap AimMap_01 BOMB",
+                "ChangeMap [map] [mode]",
                 "ChangeMap AimMap_01 CTF",
                 "ChangeMap AimMap_01 DOM",
+                "ChangeMap AimMap_01 FFA",
                 "ChangeMap AimMap_01 TDM",
-                "ChangeMap Battery BOMB",
+                "ChangeMap AimMap_01 WRT",
                 "ChangeMap Battery CTF",
                 "ChangeMap Battery DOM",
+                "ChangeMap Battery FFA",
                 "ChangeMap Battery TDM",
-                "ChangeMap Coastal BOMB",
-                "ChangeMap Coastal DOM",
+                "ChangeMap Battery WRT",
                 "ChangeMap Coastal CTF",
+                "ChangeMap Coastal DOM",
+                "ChangeMap Coastal FFA",
                 "ChangeMap Coastal TDM",
-                "ChangeMap Derailed BOMB",
+                "ChangeMap Coastal WRT",
                 "ChangeMap Derailed CTF",
                 "ChangeMap Derailed DOM",
+                "ChangeMap Derailed FFA",
                 "ChangeMap Derailed TDM",
-                "ChangeMap Liberation BOMB",
-                "ChangeMap Liberation DOM",
+                "ChangeMap Derailed WRT",
                 "ChangeMap Liberation CTF",
+                "ChangeMap Liberation DOM",
+                "ChangeMap Liberation FFA",
                 "ChangeMap Liberation TDM",
-                "ChangeMap Manorhouse_V1 BOMB",
-                "ChangeMap Manorhouse_V1 CTF",
-                "ChangeMap Manorhouse_V1 DOM",
-                "ChangeMap Manorhouse_V1 TDM",
-                "ChangeMap Manorhouse_V2 BOMB",
-                "ChangeMap Manorhouse_V2 CTF",
-                "ChangeMap Manorhouse_V2 DOM",
-                "ChangeMap Manorhouse_V2 TDM",
-                "ChangeMap Outpost BOMB",
+                "ChangeMap Liberation WRT",
+                "ChangeMap ManorHouse_V1 CTF",
+                "ChangeMap ManorHouse_V1 DOM",
+                "ChangeMap ManorHouse_V1 FFA",
+                "ChangeMap ManorHouse_V1 TDM",
+                "ChangeMap ManorHouse_V1 WRT",
+                "ChangeMap ManorHouse_V2 CTF",
+                "ChangeMap ManorHouse_V2 DOM",
+                "ChangeMap ManorHouse_V2 FFA",
+                "ChangeMap ManorHouse_V2 TDM",
+                "ChangeMap ManorHouse_V2 WRT",
                 "ChangeMap Outpost CTF",
                 "ChangeMap Outpost DOM",
-                "ChangeMap Outpost TDM"
+                "ChangeMap Outpost FFA",
+                "ChangeMap Outpost TDM",
+                "ChangeMap Outpost WRT",
+                "ChangeMap Savoita CTF",
+                "ChangeMap Savoita DOM",
+                "ChangeMap Savoita FFA",
+                "ChangeMap Savoita TDM",
+                "ChangeMap Savoita WRT"
             ]
         },
         {
@@ -682,13 +987,15 @@
             "description": "Give yourself a specific weapon",
             "examples": [
                 "GiveWeapon Gewehr_43 1",
+                "GiveWeapon GreaseGun 1",
                 "GiveWeapon Kar_98k 1",
                 "GiveWeapon Kar_98k_Scoped",
                 "GiveWeapon Luger 1",
-                "GiveWeapon M1_Carbine 1",
-                "GiveWeapon M1_Garand 1",
                 "GiveWeapon M1911 1",
                 "GiveWeapon M1918_BAR 1",
+                "GiveWeapon M1_Carbine 1",
+                "GiveWeapon M1_Garand 1",
+                "GiveWeapon MP28 1",
                 "GiveWeapon MP40 1",
                 "GiveWeapon Springfield_Scoped 1",
                 "GiveWeapon STG44 1",
@@ -750,8 +1057,28 @@
         },
         {
             "prefix": "Server.",
+            "command": "RefreshModList",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.",
+            "command": "ReloadMarked",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.",
             "command": "Restart",
             "description": "Restarts the server"
+        },
+        {
+            "prefix": "Server.",
+            "command": "SetTeamOneScore",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.",
+            "command": "SetTeamTwoScore",
+            "description": "Description needed"
         },
         {
             "prefix": "Server.",
@@ -769,6 +1096,11 @@
                 "state SetupRound",
                 "state WaitingToStart"
             ]
+        },
+        {
+            "prefix": "Server.",
+            "command": "SwapSides",
+            "description": "Description needed"
         },
         {
             "prefix": "Server.",
@@ -809,11 +1141,11 @@
         },
         {
             "prefix": "Server.Config.",
-            "command": "AllowPlayerInvulnerable",
+            "command": "AllPlayersInvulnerable",
             "description": "Description needed",
             "examples": [
-                "AllowPlayerInvulnerable True",
-                "AllowPlayerInvulnerable False"
+                "AllPlayersInvulnerable True",
+                "AllPlayersInvulnerable False"
             ]
         },
         {
@@ -823,7 +1155,7 @@
         },
         {
             "prefix": "Server.Config.",
-            "command": "AllySpawnInfluencedescriptionontent",
+            "command": "AllySpawnInfluenceExponent",
             "description": "Description needed"
         },
         {
@@ -833,7 +1165,7 @@
         },
         {
             "prefix": "Server.Config.",
-            "command": "AttackingNation",
+            "command": "AttackingTeam",
             "description": "Description needed"
         },
         {
@@ -862,16 +1194,35 @@
         },
         {
             "prefix": "Server.Config.",
-            "command": "bCheatAdmincommandsEnabled",
+            "command": "bCheatAdminCmdsEnabled",
             "description": "Enable/disable cheat commands",
             "examples": [
-                "bCheatAdmincommandsEnabled True",
-                "bCheatAdmincommandsEnabled False"
+                "bCheatAdminCmdsEnabled True",
+                "bCheatAdminCmdsEnabled False"
+            ]
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "bStratMode",
+            "description": "Enable/disable strat mode",
+            "examples": [
+                "bStratMode True",
+                "bStratMode False"
             ]
         },
         {
             "prefix": "Server.Config.",
             "command": "CharacterDestroyTime",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "CinematicsEnabled",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "CountdownToStartCinematicDelay",
             "description": "Description needed"
         },
         {
@@ -935,6 +1286,11 @@
         },
         {
             "prefix": "Server.Config.",
+            "command": "DistanceToDefuse",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
             "command": "DistanceToPickupBomb",
             "description": "Description needed"
         },
@@ -959,7 +1315,7 @@
         },
         {
             "prefix": "Server.Config.",
-            "command": "EnemySpawnInfluencedescriptiononent",
+            "command": "EnemySpawnInfluenceExponent",
             "description": "Description needed"
         },
         {
@@ -969,7 +1325,7 @@
         },
         {
             "prefix": "Server.Config.",
-            "command": "EnemySpawnWeakForceInfluencedescriptiononent",
+            "command": "EnemySpawnWeakForceInfluenceExponent",
             "description": "Description needed"
         },
         {
@@ -1075,7 +1431,27 @@
         },
         {
             "prefix": "Server.Config.",
+            "command": "LoggingEnabled",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "LogLocation",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
             "command": "MapRotation",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "MarketPath",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "MaxGrenadesOnGround",
             "description": "Description needed"
         },
         {
@@ -1090,6 +1466,21 @@
         },
         {
             "prefix": "Server.Config.",
+            "command": "MaxPlayerTokens",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "MaxTeamTokens",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "MaxTokensPlayersCanWidthdrawPerRound",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
             "command": "ModeRotation",
             "description": "Description needed"
         },
@@ -1100,7 +1491,22 @@
         },
         {
             "prefix": "Server.Config.",
+            "command": "NumInitialTokensPlayer",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "NumInitialTokensTeam",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
             "command": "NumNations",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "NumOverTimeRounds",
             "description": "Description needed"
         },
         {
@@ -1111,6 +1517,51 @@
         {
             "prefix": "Server.Config.",
             "command": "NumTeams",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "NumTokensForDefuse",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "NumTokensForGrenadeKill",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "NumTokensForHeadshotKill",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "NumTokensForKill",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "NukTokensForKnifeKill",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "NumTokensForPistolKill",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "NumTokensForPlant",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "NumTokensForRoundWin",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "NumTokensForWallbangKill",
             "description": "Description needed"
         },
         {
@@ -1187,7 +1638,7 @@
         },
         {
             "prefix": "Server.Config.",
-            "command": "PreviousSpawnAreaInfluencedescriptiononent",
+            "command": "PreviousSpawnAreaInfluenceExponent",
             "description": "Description needed"
         },
         {
@@ -1211,6 +1662,11 @@
         },
         {
             "prefix": "Server.Config.",
+            "command": "RCONPassword",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
             "command": "RecordReplays",
             "description": "Description needed",
             "examples": [
@@ -1226,6 +1682,11 @@
         {
             "prefix": "Server.Config.",
             "command": "RequiredPlayers",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "ResetDeckEveryRound",
             "description": "Description needed"
         },
         {
@@ -1354,7 +1815,7 @@
         },
         {
             "prefix": "Server.Config.",
-            "command": "TeamDeathAreaInfluencedescriptiononent",
+            "command": "TeamDeathAreaInfluenceExponent",
             "description": "Description needed"
         },
         {
@@ -1374,7 +1835,7 @@
         },
         {
             "prefix": "Server.Config.",
-            "command": "TeamDeathLastSpawnAreaInfluencedescriptiononent",
+            "command": "TeamDeathLastSpawnAreaInfluenceExponent",
             "description": "Description needed"
         },
         {
@@ -1395,6 +1856,21 @@
         {
             "prefix": "Server.Config.",
             "command": "TimeUntilTravel",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "UseDecideTeamRound",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "UseOvertime",
+            "description": "Description needed"
+        },
+        {
+            "prefix": "Server.Config.",
+            "command": "VoteKickEnabled",
             "description": "Description needed"
         },
         {
