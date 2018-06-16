@@ -100,7 +100,7 @@
             "description": "Environmental tweaks: Color strength",
             "examples": [
                 "ColorStrength 10 // Max",
-                "ColorStrength 0 // Min
+                "ColorStrength 0 // Min"
             ]
         },
         {
@@ -224,7 +224,7 @@
             "description": "Camera effects: Exposure amount",
             "examples": [
                 "ExposureAmount 10 // Max",
-                "ExposureAmount 0 // Min
+                "ExposureAmount 0 // Min"
             ]
         },
         {
@@ -243,7 +243,7 @@
             "description": "Enable/disable minimap rotation",
             "examples": [
                 "FixMapRotation 10 // Max",
-                "FixMapRotation 0 // Min
+                "FixMapRotation 0 // Min"
             ]
         },
         {
@@ -372,7 +372,7 @@
             "command": "MasterVolume",
             "description": "Adjust master volume (everything)",
             "examples": [
-                "MasterVolume 10 // Max"
+                "MasterVolume 10 // Max",
                 "MasterVolume 0 // Min"
             ]
         },
@@ -387,7 +387,7 @@
             "description": "Microphone volume level",
             "examples": [
                 "MicVolume 10 // Max",
-                "MicVolume 0 // Min
+                "MicVolume 0 // Min"
             ]
         },
         {
@@ -396,7 +396,7 @@
             "description": "Set minimap zoom level",
             "examples": [
                 "MiniMapZoomAmount 1 // Max",
-                "MiniMapZoomAmount 0 // Min
+                "MiniMapZoomAmount 0 // Min"
             ]
         },
         {
@@ -479,7 +479,7 @@
             "description": "Adjust game music volume",
             "examples": [
                 "MusicVolumeGame 10 // Max",
-                "MusicVolumeGame 0 // Min
+                "MusicVolumeGame 0 // Min"
             ]
         },
         {
@@ -759,7 +759,7 @@
             "prefix": "Settings.",
             "command": "SVT40Offset",
             "description": "SVT40 specific weapon offset"
-        }
+        },
         {
             "prefix": "Settings.",
             "command": "VoiceVolume",
@@ -786,7 +786,7 @@
             "description": "Enable/disable texture streaming",
             "examples": [
                 "TextureStreamingEnabled True",
-                "TextureStreamingEnabled False
+                "TextureStreamingEnabled False"
             ]
         },
         {
@@ -805,7 +805,7 @@
             "description": "Enable/disable the old forward renderer",
             "examples": [
                 "UseForwardRenderer True",
-                "UseForwardRenderer False
+                "UseForwardRenderer False"
             ]
         },
         {
@@ -856,8 +856,10 @@
             "prefix": "Settings.",
             "command": "WorldContrast",
             "description": "Filmic tweaks: World contrast",
-            "WorldContrast 10 // Max",
-            "WorldContrast 0 // Min
+            "examples": [
+                "WorldContrast 10 // Max",
+                "WorldContrast 0 // Min"
+            ]
         },
         {
             "prefix": "Server.",
@@ -878,7 +880,7 @@
             "command": "ChangeMap",
             "description": "Change map & mode",
             "examples": [
-                "ChangeMap [map] [mode]
+                "ChangeMap [map] [mode]",
                 "ChangeMap AimMap_01 CTF",
                 "ChangeMap AimMap_01 DOM",
                 "ChangeMap AimMap_01 FFA",
@@ -923,7 +925,7 @@
                 "ChangeMap Savoita DOM",
                 "ChangeMap Savoita FFA",
                 "ChangeMap Savoita TDM",
-                "ChangeMap Savoita WRT",
+                "ChangeMap Savoita WRT"
             ]
         },
         {
