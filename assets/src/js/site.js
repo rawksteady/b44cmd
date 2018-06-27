@@ -15,6 +15,43 @@
 
 
 //  ======================================================================
+//  Trigger events
+//  ======================================================================
+
+    function triggerEvent(el, type) {
+
+        var e = document.createEvent('HTMLEvents');
+
+        e.initEvent(type, false, true);
+        el.dispatchEvent(e);
+
+    }
+
+
+
+
+
+//  ======================================================================
+//  Fetch parameters
+//  ======================================================================
+
+    function findQuery() {
+
+        let parameter     = window.location.search.replace('?','');
+        let hasParameters = (parameter != '' && parameter.length > 0);
+
+        if (hasParameters) {
+            searchInput.value = parameter;
+            triggerEvent(searchInput, 'keyup');
+        }
+
+    }
+
+
+
+
+
+//  ======================================================================
 //  Handle search events
 //  ======================================================================
 
@@ -109,6 +146,7 @@
             }, 150);
 
             addSearch();
+            findQuery();
 
         }
 
